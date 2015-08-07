@@ -1,0 +1,39 @@
+---
+postdata: "../"
+---
+<!DOCTYPE html>
+<html>{% capture split %}{{ 'now' | date: '%Y%j' }}{% endcapture %}{% capture d %}{{ page.date | date: "%Y%j" }}{% endcapture %}
+{% include head.html %}
+<body id="page-top" class="index">
+{% include nav.html %}
+<section class="container">
+	<div style="padding: 3em"></div>
+    <div class="row">
+        <div class="page-container col-md-9">
+			<div class="row card">
+				<div class="col-md-7 dplow">
+
+					{% if  d >= split %}<a href="../../tournaments"><i class="glyphicon glyphicon-arrow-left"></i></a>
+					{% else %}<a href="../../archive"><i class="glyphicon glyphicon-arrow-left"></i></a>{% endif %}
+					<h2>{{ page.name }}</h2>
+					<span><i class="glyphicon glyphicon-calendar"></i>Date: {{ page.date | date: "%A %B %-d, %Y" }}</span> 
+					<span><i class="glyphicon glyphicon-hourglass"></i>Time: {{ page.time }}</span> 
+					<span><i class="glyphicon glyphicon-globe"></i>Location: {{ page.loc }}</span>
+                    </div>
+				<div class="col-md-4 col-md-offset-1 dplow"><img class="img-responsive" src="../../img/tourney/{{ page.pic }}" /></div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 dplow">
+					<h3>Description</h3>
+					<p>{{ content }}</p>
+				</div>
+			</div>
+		</div>
+		{% include aside.html %}
+		</div>
+	</div>
+{% include footer.html %}
+</section>
+{% include js.html %}
+</body>
+</html>

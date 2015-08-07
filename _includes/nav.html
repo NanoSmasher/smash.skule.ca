@@ -1,0 +1,27 @@
+<!-- Navigation -->
+<nav class="dphigh navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <!-- Mobile version -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="{{ page.postdata }}../">{{ site.title }}</a>
+        </div>
+
+        <!-- Desktop version -->
+		{% assign tabs = 'tournaments|rankings|locations|about' | split: '|' %}
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+			{% for tab in tabs %}{% capture next %}{{ page.url | remove:'/'}}{% endcapture %}{% if tab == next %}
+				<li><a class="on" href="{{ page.postdata }}../{{ tab }}/">{{ tab }}</a></li>{% else %}
+				<li><a class="" href="{{ page.postdata }}../{{ tab }}/">{{ tab }}</a></li>{% endif %}
+			{% endfor %}
+			</ul>
+        </div>
+    </div>
+</nav>
+

@@ -1,0 +1,35 @@
+{
+   "list":[
+      {
+         "name": "The Pit",
+         "pic": "temp.jpg",
+         "place": "Sandford Fleming Basement: SF Atrium",
+         "description":"Has two student run stores that sell food. Usual place for events.",
+      },
+      {
+         "name": "ECE Common Room",
+         "pic": "temp.jpg",
+         "place": "Sandford Fleming: SF B650",
+         "description":"Often populated. Has Melee.",
+      },
+      {
+         "name": "MP",
+         "pic": "temp.jpg",
+         "place": "McLellan Physical Laboratories: MP 217",
+         "description":"Non-engineering location. Has Melee.",
+      },
+      {
+         "name": "Chem Common Room",
+         "pic": "temp.jpg",
+         "place": "Wallberg Building: WB 238",
+         "description":"Has Project M.",
+      },
+      {
+         "name": "MSE Common Room",
+         "pic": "temp.jpg",
+         "place": "Wallberg Building: WB 238",
+         "description":"Has Melee (20XX). Has Project M.",
+      },
+      
+   ]
+}

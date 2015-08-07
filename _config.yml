@@ -1,0 +1,25 @@
+############################## Site settings ##############################
+
+title: UofT Smash
+senpai: Henry Lu
+
+colour:
+  light: E74C3C
+  overlight: EFEFEF
+  dark: C0392B
+  overdark: FEFEFE
+
+markdown: kramdown
+permalink: '/tournament/:title/'
+relative_permalinks: false
+include: [.htaccess]
+exclude: [LICENCE,README.md]
+future: true
+
+############################## Stuff you can touch  ##############################
+
+keywords: ['UofT', 'Toronto', 'Skule', 'Engineering', 'Club', 'Super', 'Smash', 'Bros', 'Melee', 'Project M', 'Wii U']
+description: 'Smash at UofT'
+youtube: 'UCgyW1tIsYq1bfrdYZIMCnNA'
+email: 'smash@smash.skule.ca'
+facebook: '454304108002814'

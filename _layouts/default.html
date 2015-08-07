@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+<body id="page-top" class="index">
+{% include nav.html %}
+<section class="container">
+	<div style="padding: 3em"></div>
+    <div class="row">
+        <div class="page-container col-md-9">
+		{% if page.permalink ~= nil %}
+			<div class="row">
+	        <div class="dpmid col-md-12 titlebar"><h2 class="text-center">{{ page.permalink | replace:'/','' }}</h2></div>		
+			</div>			
+		{% endif %}
+			<div class="row">
+			{{ content }}
+			</div>
+		</div>
+		{% include aside.html %}
+	</div>
+{% include footer.html %}
+</section>
+{% include js.html %}
+</body>
+</html>

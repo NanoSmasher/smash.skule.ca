@@ -1,0 +1,20 @@
+---
+permalink: /rankings/
+layout: default
+---
+
+{% for player in site.data.ranking.list limit:10 %}
+<div id={{ player.rank | plus: '1' }} class="col-md-10 col-md-offset-1 dplow rank">
+	<b>{{ player.rank }}</b>
+	<span>
+		Melee: {% for m in player.melee %}{{ m }} {% endfor %}
+		<br />
+		PM: {% for m in player.pm %}{{ m }} {% endfor %}
+	</span>
+	<h5>{{ player.name }}</h5>
+	<p>{{ player.description}}</p>
+	<p>
+		{% for w in player.wins %}<img src="../img/tourney/{{w}}.png" alt="{{w}}" />{% endfor %}
+	</p>
+</div>
+{% endfor %}

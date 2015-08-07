@@ -1,0 +1,36 @@
+{
+	"list":[
+		{
+			"rank": 1,
+			"name":"Lockon",
+			"melee": [""],
+			"pm":[""],
+			"description":"",
+			"wins": ["badge","badge"]
+		},
+		{
+			"rank": 2,
+			"name":"K",
+			"wins": ["badge"]
+		},
+		{
+			"rank": 3,
+			"name":"Silent Zebra",
+			"wins": ["badge"]
+		},
+		{
+			"rank": 4,
+			"name":"Dances With Pidgeons",
+			"wins": ["badge"]
+		},
+		{
+			"rank": 5,
+			"name":"Steven Z",
+			"wins": ["badge"]
+		},
+		{
+			"rank": 6,
+			"name":"MS|Carl"
+		}
+	]
+}

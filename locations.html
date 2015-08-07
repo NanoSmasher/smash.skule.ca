@@ -1,0 +1,37 @@
+---
+permalink: /locations/
+layout: default
+---
+
+<div class="tabbable dplow">
+    <ul>
+	<li class="active">
+	    <a data-toggle="tab" href="#1">UofT Feen Spots</a>
+	</li>
+	{% assign count = '2' %}
+	{% for loc in site.data.location.list %}
+	<li class="">
+	    <a data-toggle="tab" href="#{{ count }}">{{ loc.name }}</a>
+	</li>
+	{% capture count %}{{ count | plus:'1' }}{% endcapture %}
+	{% endfor %}
+    </ul>
+    <div class="tab-content">
+	<div id="1" class="tab-pane active">
+	    <h3>UofT Feen Spots</h3>
+	    <p>Here are the places where you can catch people playing Super Smash Brothers Melee for the Nintendo Gamecube, Super Smash Brothers Project M for the Nintendo Wii, Super Smash Brothers for Wii U for the Wii U, and other Smash games. Please don't be a dick: The locations here aren't for you to barge in, break the provided controllers, and leave with 50 pounds of shit on the ground. Treat them with courtesy and common sense.</p>
+		<p>Our Facebook group (UofT SSBM - Super Smash Bros. Melee at University of Toronto) is pretty active, so if you are wondering what is new or finding a place to practice your game go join up!</p>
+	</div>
+	{% assign count = '2' %}
+	{% for loc in site.data.location.list %}
+	<div id="{{ count }}" class="tab-pane">
+		<img class="img-responsive" src="../img/location/{{ loc.pic }}"/>
+		<h3>{{ loc.name }}</h3>
+		<p><strong>{{ loc.place }}</strong></p>
+		<br />
+		<p>{{ loc.description }}</p>
+	</div>
+	{% capture count %}{{ count | plus:'1' }}{% endcapture %}
+	{% endfor %}	
+    </div>
+</div>

@@ -1,0 +1,342 @@
+---
+---
+
+body {
+    font: 14px 'Open Sans', sans-serif;
+    overflow-x: hidden;
+    color: #868686;
+	background-color: #{{ site.colour.overdark }};
+	background: url("../img/background.jpg");
+	background-position:center;
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+}
+
+h4 {
+	text-align: center;
+    margin: 0;
+    padding: 1.2em;
+    height: auto;
+    line-height: 0.5em;
+    color: #{{ site.colour.overlight }};
+    background: #{{ site.colour.light }};
+    text-transform: uppercase;
+}
+
+ul, ol, li {
+	list-style-type: none;
+	padding:0px;
+}
+
+.dphigh {
+	-webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, 1);
+	box-shadow: 0px 0px 12px rgba(0, 0, 0, 1);
+	background-color: #{{ site.colour.overdark }};
+	margin-bottom: 3em;
+}
+.dpmid {
+	-webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 1);
+	box-shadow: 0px 0px 4px rgba(0, 0, 0, 1);
+	background-color: #{{ site.colour.overdark }};
+	margin-bottom: 3em;
+}
+.dplow {
+	-webkit-box-shadow: 0px 0px 2px rgba(0, 0, 0, 1);
+	box-shadow: 0px 0px 2px rgba(0, 0, 0, 1);
+	background-color: #{{ site.colour.overdark }};
+	margin-bottom: 3em;
+}
+
+/*	#######################################################
+   	###                    NAVBAR                       ###
+   	####################################################### */
+
+.navbar {
+	text-transform: uppercase;
+	font-family: 'Open Sans',sans-serif;
+	font-weight: 700;
+	background: #{{ site.colour.light }};
+	border: 0;
+}
+
+.navbar a:focus					{outline: 0;}
+.navbar .navbar-nav			{letter-spacing: 1px;}
+.navbar-nav li:hover			{background: #{{ site.colour.dark }};}
+.navbar-nav li a:focus		{outline: 0;}
+a.on			 						{background: #{{ site.colour.dark }};}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a
+{
+	color:#{{ site.colour.overdark }};
+	transition: all 0.3s ease 0s;
+}
+
+@media(min-width:768px) {
+	.navbar-fixed-top {
+	    -webkit-transition: padding .3s;
+	    -moz-transition: padding .3s;
+	    transition: padding .3s;
+	}
+
+	.navbar-fixed-top .navbar-brand {
+	    font-size: 2em;
+	    -webkit-transition: all .3s;
+	    -moz-transition: all .3s;
+	    transition: all .3s;
+	}
+
+	.navbar-fixed-top.navbar-shrink .navbar-brand {
+	    font-size: 1.5em;
+	}
+}
+
+/*	#######################################################
+   	###                    CENTER                       ###
+   	####################################################### */
+
+.titlebar {
+    margin: 0 0 3em;
+	padding: 1em;
+    background: #{{ site.colour.overlight }};
+    text-transform: uppercase;
+}
+
+article {
+	background: #{{ site.colour.overlight }};
+	margin-bottom: 1em;
+}
+
+article h4 {
+	padding: 1em;
+}
+
+aside article h4 {
+	padding: 0.5em;
+	margin: 0.5em 0.5em 0;
+	background: #{{ site.colour.dark }};
+}
+
+article	.info {
+	text-align: center;
+	margin: 1em 0px;
+	padding: 0.6em;
+}
+
+article img {
+	margin: 1em 0px;
+	padding-bottom: 1em;
+}
+
+article a, article a:hover, article a:focus{
+	text-decoration: none;
+	color: inherit;
+}
+
+.rank {
+	margin-bottom: 20px;
+}
+
+.rank b {
+    display: block;
+    float: left;
+    font-size: 20px;
+    padding: 20px 0;
+	margin: 20px 20px 20px 5px;
+    text-align: center;
+    width: 3em;
+	height: 3em;
+	color: #{{ site.colour.overdark }};
+	background: #{{ site.colour.dark }};
+}
+
+.rank span {
+    display: block;
+    float: right;
+    font-size: 14px;
+	padding: 13px 0;
+	margin: 20px;
+    width: 20%;
+	height: 3em;
+}
+
+.rank h5 {
+	display: block;
+	float: center;
+	padding: 12px 0;
+	font-size: 38px;
+	line-height: 38px;
+}
+
+.rank p {
+	margin-left: 85px;
+	padding-bottom: 2em;
+}
+
+.card img {
+	padding: 15px 0;
+}
+
+.card span {
+	display:block;
+	font-size: 1em;
+	margin: 1em 0;
+}
+
+.card h2, h3 {
+	color: #555;
+}
+
+.card i {
+	padding: 5px;
+}
+
+.card a {
+	display: inline;
+	padding: 20px;
+	float: right;
+}
+/*	#######################################################
+   	###                  FLIPCARDS                      ###
+   	####################################################### */
+
+.tabbable {
+	padding-bottom: 6em;
+	margin-bottom: 6em;
+}
+
+.tabbable ul {
+		float:left;
+		padding: 15px 0px;
+		margin: 19px;
+		border-right: 1px solid #AAA;
+		border-top: 0px none;
+		border-bottom: 0px none;
+		min-width: 205px;
+}
+.tabbable li {
+		float:none;
+		margin-bottom: 4px;
+}
+
+.tabbable a {
+		display:block;
+		color: inherit;
+		text-decoration: none;
+		margin-right: -1px;
+		border-radius: 0px;
+		padding: 8px 12px 8px 12px;
+}
+
+.tabbable a:hover {
+		border-color: #AAA
+}
+
+.tabbable li.active > a {
+	border: 1px solid #AAA;
+	border-color: #AAA #{{ site.colour.overdark }} #AAA #AAA;
+	font-weight: bold;
+}
+
+.tab-content {
+	overflow: auto;
+}
+
+.tab-content > div {
+	display:none; 
+	padding: 9px 15px;
+}
+
+.tab-content > div.active {
+	display:block;
+}
+
+.tab-content img {
+	margin: 1em 0px;
+	padding: 1em;
+}
+
+
+
+/*	#######################################################
+   	###                    SIDEBAR                      ###
+   	####################################################### */
+
+aside div {
+	background: #{{ site.colour.overlight }};
+	margin-bottom: 3em;
+}
+
+.ranking a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.ranking ul {
+    margin-bottom: 0;
+    border: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.ranking ul li {
+    padding: 1.5em 0 1.5em 1.5em;
+    background: #fff;
+    line-height: normal;
+	font-size: 20px;
+}
+
+.ranking ul li:nth-child(even) {
+    background: #{{ site.colour.overlight }};
+}
+
+.ranking ul li span {
+    display: block;
+    float: left;
+    font-size: 20px;
+    margin: -1.06em 0.5em 0 -1.06em;
+    padding: 1em 0;
+    text-align: center;
+    width: 3em;
+	height: 3em;
+	color: #{{ site.colour.overdark }};
+	background: #{{ site.colour.dark }};
+}
+.ranking ul li:nth-child(even) span {
+	color: #{{ site.colour.overlight }};
+	background: #{{ site.colour.light }};
+}
+
+.icon {
+  margin: 10px;
+  display: inline-block;
+  height: 32px;
+  width: 32px;
+  border-radius: 100%;
+  fill: #fff;
+}
+
+.icon:hover {
+  fill: #ddd;
+  transform: scale(1.25);
+  -webkit-transform: scale(1.25);
+  -ms-transform: scale(1.25);
+}
+
+.icon-fb {background: #293F7E;}
+.icon-yt {background: #D32D20;}
+.icon-ml {background: #26D926;}
+
+/*	#######################################################
+   	###                    FOOTER                       ###
+   	####################################################### */
+
+footer {
+	-webkit-box-shadow: 0px 0px 2px rgba(0, 0, 0, 1);
+	box-shadow: 0px 0px 2px rgba(0, 0, 0, 1);
+    margin: 10em 0 0;
+	padding: 1em;
+	color: #{{ site.colour.overlight }};
+	background: #{{ site.colour.light }};
+}
+footer p {margin:0;}
