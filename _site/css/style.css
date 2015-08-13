@@ -1,11 +1,8 @@
----
----
-
 body {
     font: 14px 'Open Sans', sans-serif;
     overflow-x: hidden;
     color: #1A172D;
-	background-color: #{{ site.colour.overdark }};
+	background-color: #FEFEFE;
 	background: url("../img/background.jpg");
 	background-position:center;
 	background-size:cover;
@@ -19,8 +16,8 @@ h4 {
     padding: 1.2em;
     height: auto;
     line-height: 0.5em;
-    color: #{{ site.colour.overlight }};
-    background: #{{ site.colour.light }};
+    color: #EFEFEF;
+    background: #E74C3C;
     text-transform: uppercase;
 }
 
@@ -32,19 +29,19 @@ ul, ol, li {
 .dphigh {
 	-webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, 1);
 	box-shadow: 0px 0px 12px rgba(0, 0, 0, 1);
-	background-color: #{{ site.colour.overdark }};
+	background-color: #FEFEFE;
 	margin-bottom: 3em;
 }
 .dpmid {
 	-webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 1);
 	box-shadow: 0px 0px 4px rgba(0, 0, 0, 1);
-	background-color: #{{ site.colour.overdark }};
+	background-color: #FEFEFE;
 	margin-bottom: 3em;
 }
 .dplow {
 	-webkit-box-shadow: 0px 0px 2px rgba(0, 0, 0, 1);
 	box-shadow: 0px 0px 2px rgba(0, 0, 0, 1);
-	background-color: #{{ site.colour.overdark }};
+	background-color: #FEFEFE;
 	margin-bottom: 3em;
 }
 
@@ -56,19 +53,19 @@ ul, ol, li {
 	text-transform: uppercase;
 	font-family: 'Open Sans',sans-serif;
 	font-weight: 700;
-	background: #{{ site.colour.light }};
+	background: #E74C3C;
 	border: 0;
 }
 
 .navbar a:focus					{outline: 0;}
 .navbar .navbar-nav			{letter-spacing: 1px;}
-.navbar-nav li:hover			{background: #{{ site.colour.dark }};}
+.navbar-nav li:hover			{background: #C0392B;}
 .navbar-nav li a:focus		{outline: 0;}
-a.on			 						{background: #{{ site.colour.dark }};}
+a.on			 						{background: #C0392B;}
 
 .navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a
 {
-	color:#{{ site.colour.overdark }};
+	color:#FEFEFE;
 	transition: all 0.3s ease 0s;
 }
 
@@ -98,12 +95,12 @@ a.on			 						{background: #{{ site.colour.dark }};}
 .titlebar {
     margin: 0 0 3em;
 	padding: 1em;
-    background: #{{ site.colour.overlight }};
+    background: #EFEFEF;
     text-transform: uppercase;
 }
 
 article {
-	background: #{{ site.colour.overlight }};
+	background: #EFEFEF;
 	margin-bottom: 1em;
 }
 
@@ -114,7 +111,7 @@ article h4 {
 aside article h4 {
 	padding: 0.5em;
 	margin: 0.5em 0.5em 0;
-	background: #{{ site.colour.dark }};
+	background: #C0392B;
 }
 
 article	.info {
@@ -134,11 +131,11 @@ article a, article a:hover, article a:focus{
 }
 
 div.row div.col-md-4:nth-child(even) h4 {
-	background: #{{ site.colour.dark }};
+	background: #C0392B;
 }
 
 div.row div.rank:nth-child(even) b {
-	background: #{{ site.colour.light }};
+	background: #E74C3C;
 }
 
 .rank {
@@ -154,8 +151,8 @@ div.row div.rank:nth-child(even) b {
     text-align: center;
     width: 3em;
 	height: 3em;
-	color: #{{ site.colour.overdark }};
-	background: #{{ site.colour.dark }};
+	color: #FEFEFE;
+	background: #C0392B;
 }
 
 .rank span {
@@ -242,7 +239,7 @@ div.row div.rank:nth-child(even) b {
 
 .tabbable li.active > a {
 	border: 1px solid #AAA;
-	border-color: #AAA #{{ site.colour.overdark }} #AAA #AAA;
+	border-color: #AAA #FEFEFE #AAA #AAA;
 	font-weight: bold;
 }
 
@@ -271,7 +268,7 @@ div.row div.rank:nth-child(even) b {
    	####################################################### */
 
 aside div {
-	background: #{{ site.colour.overlight }};
+	background: #EFEFEF;
 	margin-bottom: 3em;
 }
 
@@ -289,13 +286,13 @@ aside div {
 
 .ranking ul a li {
     padding: 1.5em 0 1.5em 1.5em;
-    background: #{{ site.colour.overdark }};
+    background: #FEFEFE;
     line-height: normal;
 	font-size: 20px;
 }
 
 .ranking ul a:nth-child(even) li {
-    background: #{{ site.colour.overlight }};
+    background: #EFEFEF;
 }
 
 .ranking ul a li span {
@@ -307,12 +304,12 @@ aside div {
     text-align: center;
     width: 3em;
 	height: 3em;
-	color: #{{ site.colour.overdark }};
-	background: #{{ site.colour.dark }};
+	color: #FEFEFE;
+	background: #C0392B;
 }
 .ranking ul a:nth-child(even) li span {
-	color: #{{ site.colour.overlight }};
-	background: #{{ site.colour.light }};
+	color: #EFEFEF;
+	background: #E74C3C;
 }
 
 .icon {
@@ -344,7 +341,7 @@ footer {
 	box-shadow: 0px 0px 2px rgba(0, 0, 0, 1);
     margin: 10em 0 0;
 	padding: 1em;
-	color: #{{ site.colour.overlight }};
-	background: #{{ site.colour.light }};
+	color: #EFEFEF;
+	background: #E74C3C;
 }
 footer p {margin:0;}
