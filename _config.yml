@@ -2,6 +2,7 @@
 
 title: UofT Smash
 senpai: Henry Lu
+project: https://github.com/nanosmasher/smash.skule.ca
 
 colour:
   light: E74C3C
@@ -13,7 +14,7 @@ markdown: kramdown
 permalink: '/tournament/:title/'
 relative_permalinks: false
 include: [.htaccess]
-exclude: [LICENCE,README.md]
+exclude: [LICENSE,README.md]
 future: true
 
 ############################## Stuff you can touch  ##############################

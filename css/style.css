@@ -48,6 +48,18 @@ ul, ol, li {
 	margin-bottom: 3em;
 }
 
+a, a:hover, a:focus{
+	text-decoration: none;
+	color: inherit;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -65px;
+    visibility: hidden;
+}
+
 /*	#######################################################
    	###                    NAVBAR                       ###
    	####################################################### */
@@ -128,11 +140,6 @@ article img {
 	padding-bottom: 1em;
 }
 
-article a, article a:hover, article a:focus{
-	text-decoration: none;
-	color: inherit;
-}
-
 div.row div.col-md-4:nth-child(even) h4 {
 	background: #{{ site.colour.dark }};
 }
@@ -164,7 +171,7 @@ div.row div.rank:nth-child(even) b {
     font-size: 14px;
 	padding: 13px 0;
 	margin: 20px;
-    width: 20%;
+    width: 25%;
 	height: 3em;
 }
 
@@ -204,6 +211,13 @@ div.row div.rank:nth-child(even) b {
 	padding: 20px;
 	float: right;
 }
+
+@media(max-width:991px) {
+	#main {
+		padding-bottom: 15px;
+	}
+}
+
 /*	#######################################################
    	###                  FLIPCARDS                      ###
    	####################################################### */
@@ -264,8 +278,6 @@ div.row div.rank:nth-child(even) b {
 	padding: 1em;
 }
 
-
-
 /*	#######################################################
    	###                    SIDEBAR                      ###
    	####################################################### */
@@ -278,6 +290,10 @@ aside div {
 .ranking a {
 	text-decoration: none;
 	color: inherit;
+}
+
+.ranking img {
+	float: right;
 }
 
 .ranking ul {
@@ -315,6 +331,18 @@ aside div {
 	background: #{{ site.colour.light }};
 }
 
+aside .pm{
+	display: none;
+}
+
+.pm ul a li span, .pm b {
+	background: #311b92;
+}
+
+.pm h4, .pm ul a:nth-child(even) li span, div.row div.rank:nth-child(even).pm b {
+	background: #673ab7;
+}
+
 .icon {
   margin: 10px;
   display: inline-block;
@@ -348,3 +376,27 @@ footer {
 	background: #{{ site.colour.light }};
 }
 footer p {margin:0;}
+
+/*	#######################################################
+   	###                     MISC                        ###
+   	####################################################### */
+
+.about {
+	text-align: center;
+}
+
+.about div p {
+	z-index: 100;
+	position: absolute;
+	height: 160px;
+	width: 160px;
+	line-height: 160px;
+	display: none;
+	background: rgba(147, 52, 42, 0.5);
+	font-size: 20px;
+}
+
+.about div:hover p {
+	display: block;
+}
+

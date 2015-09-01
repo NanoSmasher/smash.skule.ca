@@ -17,15 +17,17 @@ postdata: "../"
 					{% else %}<a href="../../archive"><i class="glyphicon glyphicon-arrow-left"></i></a>{% endif %}
 					<h2>{{ page.name }}</h2>
 					<span><i class="glyphicon glyphicon-calendar"></i>Date: {{ page.date | date: "%A %B %-d, %Y" }}</span> 
-					<span><i class="glyphicon glyphicon-hourglass"></i>Time: {{ page.time }}</span> 
-					<span><i class="glyphicon glyphicon-globe"></i>Location: {{ page.loc }}</span>
+					<span><i class="glyphicon glyphicon-time"></i>Time: {{ page.time }}</span> 
+					<span><i class="glyphicon glyphicon-map-marker"></i>Location: {{ page.loc }}</span>
                     </div>
-				<div class="col-md-4 col-md-offset-1 dplow"><img class="img-responsive" src="../../img/tourney/{{ page.pic }}" /></div>
+				<div class="col-md-4 col-md-offset-1 dplow peak"><img class="img-responsive" src="../../img/tourney/{{ page.pic }}" /></div>
 			</div>
 			<div class="row">
 				<div class="col-md-12 dplow">
 					<h3>Description</h3>
 					<p>{{ content }}</p>
+					<iframe src="{{ page.bracket }}/module?show_standings=1&tab=standings" width="100%" height="500" frameborder="0" scrolling="auto"></iframe>
+					<p>Bracket Link: <a href="{{ page.bracket }}">{{ page.bracket }}</a></p>
 				</div>
 			</div>
 		</div>

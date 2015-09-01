@@ -8,8 +8,9 @@
     <meta name="description" content="Smash at UofT">
 	<meta name="keywords" content="UofT Smash, UofT, Toronto, Skule, Engineering, Club, Super, Smash, Bros, Melee, Project M, Wii U">
 	<link rel="canonical" href="/tournaments/">    
-	<link rel="stylesheet" href="../css/bootstrap.css">
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/flair.css">
 </head>
 
 <body id="page-top" class="index">
@@ -96,32 +97,71 @@
 			</div>
 		</div>
 		<aside class="col-md-3">
-    <div class="dplow ranking">
-        <h4>Melee Rankings</h4>
-        <ul>
+
+    <div class="dplow ranking me">		
+        <i id="rpm" class="game" href="#ProjectM"></i>
+		<h4>Melee Ranks</h4>        
+		<ul>
 		
-		<a href="../rankings#1">		
-		<li><span>1</span>Lockon</li>
+		<a href="../rankings#m1">		
+		<li>
+			<span>1</span>Lockon
+			<i class="flair" href="#Melee" title=""></i>
+		</li>
 		</a>
 		
-		<a href="../rankings#2">		
-		<li><span>2</span>K</li>
+		<a href="../rankings#m2">		
+		<li>
+			<span>2</span>K
+			
+		</li>
 		</a>
 		
-		<a href="../rankings#3">		
-		<li><span>3</span>Silent Zebra</li>
+		<a href="../rankings#m3">		
+		<li>
+			<span>3</span>Silent Zebra
+			
+		</li>
 		</a>
 		
-		<a href="../rankings#4">		
-		<li><span>4</span>Dances With Pidgeons</li>
+		<a href="../rankings#m4">		
+		<li>
+			<span>4</span>Dances With Pidgeons
+			
+		</li>
 		</a>
 		
-		<a href="../rankings#5">		
-		<li><span>5</span>Steven Z</li>
+		<a href="../rankings#m5">		
+		<li>
+			<span>5</span>Steven Z
+			
+		</li>
 		</a>
 		
         </ul>        
     </div>
+    <div class="dplow ranking pm">
+		<i id="rme" class="game" href="#Melee"></i>
+        <h4>PM Ranks</h4>
+        <ul>
+		
+		<a href="../rankings#p1">		
+		<li>
+			<span>1</span>NGNL
+			<i class="flair" href="#PmIke" title="Ike"></i><i class="flair" href="#PmROB" title="ROB"></i><i class="flair" href="#PmBowser" title="Bowser"></i><i class="flair" href="#PmOlimar" title="Olimar"></i>
+		</li>
+		</a>
+		
+		<a href="../rankings#p2">		
+		<li>
+			<span>2</span>NGNL's ego
+			
+		</li>
+		</a>
+		
+        </ul>        
+    </div>
+
 	<div class="dplow">
         <h4>Calendar</h4>
 
@@ -143,13 +183,15 @@
 
 	</div>
 <footer>
-		<p class="text-center">Designed by Henry Lu</p>
+		<p class="text-center">Designed by <a href="https://github.com/nanosmasher/smash.skule.ca">Henry Lu</a></p>
+		<a href="/404.html">  </a>
 </footer>
 
 </section>
 <!-- Javascript -->
     <script src="../js/jquery-1.11.0.js"></script>
     <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/switch.js"></script>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->

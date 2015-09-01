@@ -1,0 +1,897 @@
+/* Hey thanks reddit!
+	original link is here: //b.thumbs.redditmedia.com/lzk6YGBixGxt_xue4Em55LNhq9dz4Qmpoi7onTfH0XA.css
+	original image is here: //b.thumbs.redditmedia.com/b9etWNOfyqZQ11udAADSqzpEyKGGsGxYvPA4sbHEOPM.png
+*/
+
+.game[href="#64"],.game[href="#Melee"],.game[href="#SSB4"],.game[href="#Brawl"],.game[href="#ProjectM"]{
+	content:"";
+	position:absolute;
+	top:16px;
+	right:16px;
+	width:60px;
+	height:20px;
+	background:url("../img/games.png") no-repeat;
+}
+
+.game[href="#64"]{background-position:0px 0px;}
+.game[href="#Melee"]{background-position:0px -20px;}
+.game[href="#SSB4"]{background-position:0px -40px;}
+.game[href="#Brawl"]{background-position:0px -60px;}
+.game[href="#ProjectM"]{background-position:0px -80px;}
+
+.flair[href="#S64CaptainFalcon"],.flair[href="#S64DonkeyKong"],.flair[href="#S64Fox"],.flair[href="#S64Jigglypuff"],.flair[href="#S64Kirby"],.flair[href="#S64Link"],.flair[href="#S64Luigi"],.flair[href="#S64Mario"],.flair[href="#S64Ness"],.flair[href="#S64Pikachu"],.flair[href="#S64Samus"],.flair[href="#S64Yoshi"],.flair[href="#BrawlBowser"],.flair[href="#PmBowser"],.flair[href="#BrawlCaptainFalcon"],.flair[href="#PmCaptainFalcon"],.flair[href="#BrawlCharizard"],.flair[href="#PmCharizard"],.flair[href="#BrawlDiddyKong"],.flair[href="#PmDiddyKong"],.flair[href="#BrawlDonkeyKong"],.flair[href="#PmDonkeyKong"],.flair[href="#BrawlFalco"],.flair[href="#PmFalco"],.flair[href="#BrawlFox"],.flair[href="#PmFox"],.flair[href="#BrawlGanondorf"],.flair[href="#PmGanondorf"],.flair[href="#BrawlIceClimbers"],.flair[href="#PmIceClimbers"],.flair[href="#BrawlIke"],.flair[href="#PmIke"],.flair[href="#BrawlIvysaur"],.flair[href="#PmIvysaur"],.flair[href="#BrawlJigglypuff"],.flair[href="#PmJigglypuff"],.flair[href="#BrawlKingDeDeDe"],.flair[href="#PmKingDeDeDe"],.flair[href="#BrawlKirby"],.flair[href="#PmKirby"],.flair[href="#BrawlLink"],.flair[href="#PmLink"],.flair[href="#BrawlLucario"],.flair[href="#PmLucario"],.flair[href="#BrawlLucas"],.flair[href="#PmLucas"],.flair[href="#BrawlLuigi"],.flair[href="#PmLuigi"],.flair[href="#BrawlMario"],.flair[href="#PmMario"],.flair[href="#BrawlMarth"],.flair[href="#PmMarth"],.flair[href="#BrawlMetaKnight"],.flair[href="#PmMetaKnight"],.flair[href="#BrawlMewtwo"],.flair[href="#PmMewtwo"],.flair[href="#BrawlMrGameAndWatch"],.flair[href="#PmMrGameAndWatch"],.flair[href="#BrawlNess"],.flair[href="#PmNess"],.flair[href="#BrawlOlimar"],.flair[href="#PmOlimar"],.flair[href="#BrawlPeach"],.flair[href="#PmPeach"],.flair[href="#BrawlPikachu"],.flair[href="#PmPikachu"],.flair[href="#BrawlPit"],.flair[href="#PmPit"],.flair[href="#BrawlROB"],.flair[href="#PmROB"],.flair[href="#BrawlRoy"],.flair[href="#PmRoy"],.flair[href="#BrawlSamus"],.flair[href="#PmSamus"],.flair[href="#BrawlSheik"],.flair[href="#PmSheik"],.flair[href="#BrawlSnake"],.flair[href="#PmSnake"],.flair[href="#BrawlSonic"],.flair[href="#PmSonic"],.flair[href="#BrawlSquirtle"],.flair[href="#PmSquirtle"],.flair[href="#BrawlToonLink"],.flair[href="#PmToonLink"],.flair[href="#BrawlWario"],.flair[href="#PmWario"],.flair[href="#BrawlWolf"],.flair[href="#PmWolf"],.flair[href="#BrawlYoshi"],.flair[href="#PmYoshi"],.flair[href="#BrawlZelda"],.flair[href="#PmZelda"],.flair[href="#BrawlZeroSuitSamus"],.flair[href="#PmZeroSuitSamus"],.flair[href="#MeleeBowser"],.flair[href="/Bowser"],.flair[href="#MeleeCaptainFalcon"],.flair[href="/CF"],.flair[href="#MeleeDonkeyKong"],.flair[href="/DK"],.flair[href="#MeleeDrMario"],.flair[href="/DrMario"],.flair[href="#MeleeFalco"],.flair[href="/Falco"],.flair[href="#MeleeFox"],.flair[href="/Fox"],.flair[href="#MeleeGanondorf"],.flair[href="/Ganon"],.flair[href="#MeleeIceClimbers"],.flair[href="/Icies"],.flair[href="#MeleeJigglypuff"],.flair[href="/Puff"],.flair[href="#MeleeKirby"],.flair[href="/Kirby"],.flair[href="#MeleeLink"],.flair[href="/Link"],.flair[href="#MeleeLuigi"],.flair[href="/Luigi"],.flair[href="#MeleeMario"],.flair[href="/Mario"],.flair[href="#MeleeMarth"],.flair[href="/Marth"],.flair[href="#MeleeMewtwo"],.flair[href="/Mewtwo"],.flair[href="#MeleeMrGameAndWatch"],.flair[href="/GNW"],.flair[href="#MeleeNess"],.flair[href="/Ness"],.flair[href="#MeleePeach"],.flair[href="/Peach"],.flair[href="#MeleePichu"],.flair[href="/Pichu"],.flair[href="#MeleePikachu"],.flair[href="/Pikachu"],.flair[href="#MeleeRoy"],.flair[href="/Roy"],.flair[href="#MeleeSamus"],.flair[href="/Samus"],.flair[href="#MeleeSheik"],.flair[href="/Sheik"],.flair[href="#MeleeYoshi"],.flair[href="/Yoshi"],.flair[href="#MeleeYoungLink"],.flair[href="/YL"],.flair[href="#MeleeZelda"],.flair[href="/Zelda"],.flair[href="#Sm4shAlph"],.flair[href="#Sm4shBowser"],.flair[href="#Sm4shBowserJr"],.flair[href="#Sm4shCaptainFalcon"],.flair[href="#Sm4shCharizard"],.flair[href="#Sm4shDarkPit"],.flair[href="#Sm4shDiddyKong"],.flair[href="#Sm4shDiddy"],.flair[href="#Sm4shDonkeyKong"],.flair[href="#Sm4shDrMario"],.flair[href="#Sm4shDuckHunt"],.flair[href="#Sm4shFalco"],.flair[href="#Sm4shFemaleRobin"],.flair[href="#Sm4shFemaleVillager"],.flair[href="#Sm4shFemaleWiiFitTrainer"],.flair[href="#Sm4shFox"],.flair[href="#Sm4shGanondorf"],.flair[href="#Sm4shGreninja"],.flair[href="#Sm4shIggy"],.flair[href="#Sm4shIke"],.flair[href="#Sm4shJigglypuff"],.flair[href="#Sm4shKingDeDeDe"],.flair[href="#Sm4shKirby"],.flair[href="#Sm4shLarry"],.flair[href="#Sm4shLemmy"],.flair[href="#Sm4shLink"],.flair[href="#Sm4shLittleMac"],.flair[href="#Sm4shLucario"],.flair[href="#Sm4shLucas"],.flair[href="#Sm4shLucina"],.flair[href="#Sm4shLudwig"],.flair[href="#Sm4shLuigi"],.flair[href="#Sm4shMaleRobin"],.flair[href="#Sm4shMaleVillager"],.flair[href="#Sm4shMaleWiiFitTrainer"],.flair[href="#Sm4shMario"],.flair[href="#Sm4shMarth"],.flair[href="#Sm4shMegaman"],.flair[href="#Sm4shMetaKnight"],.flair[href="#Sm4shMewtwo"],.flair[href="#Sm4shMiiBrawler"],.flair[href="#Sm4shMiiGunner"],.flair[href="#Sm4shMiiSwordfighter"],.flair[href="#Sm4shMorton"],.flair[href="#Sm4shMrGameAndWatch"],.flair[href="#Sm4shMrG&W"],.flair[href="#Sm4shNess"],.flair[href="#Sm4shOlimar"],.flair[href="#Sm4shPacman"],.flair[href="#Sm4shPalutena"],.flair[href="#Sm4shPeach"],.flair[href="#Sm4shPikachu"],.flair[href="#Sm4shPit"],.flair[href="#Sm4shROB"],.flair[href="#Sm4shRosalina"],.flair[href="#Sm4shRoy"],.flair[href="#Sm4shRoyKoopa"],.flair[href="#Sm4shRyu"],.flair[href="#Sm4shSamus"],.flair[href="#Sm4shSheik"],.flair[href="#Sm4shShulk"],.flair[href="#Sm4shSonic"],.flair[href="#Sm4shToonLink"],.flair[href="#Sm4shWario"],.flair[href="#Sm4shWendy"],.flair[href="#Sm4shYoshi"],.flair[href="#Sm4shZelda"],.flair[href="#Sm4shZeroSuitSamus"],.flair[href="#Sm4shZSSamus"]{
+	background-image:url("../img/flairs.png");
+	background-repeat:no-repeat;
+	display:inline-block;
+	vertical-align:middle
+}
+
+.flair[href="#S64CaptainFalcon"]{
+	width:28px;
+	height:28px;
+	background-position:0 0
+}
+
+.flair[href="#S64DonkeyKong"]{
+	width:28px;
+	height:28px;
+	background-position:-28px 0
+}
+
+.flair[href="#S64Fox"]{
+	width:28px;
+	height:28px;
+	background-position:-56px 0
+}
+
+.flair[href="#S64Jigglypuff"]{
+	width:28px;
+	height:28px;
+	background-position:-84px 0
+}
+
+.flair[href="#S64Kirby"]{
+	width:28px;
+	height:28px;
+	background-position:-112px 0
+}
+
+.flair[href="#S64Link"]{
+	width:28px;
+	height:28px;
+	background-position:-140px 0
+}
+
+.flair[href="#S64Luigi"]{
+	width:28px;
+	height:28px;
+	background-position:-168px 0
+}
+
+.flair[href="#S64Mario"]{
+	width:28px;
+	height:28px;
+	background-position:-196px 0
+}
+
+.flair[href="#S64Ness"]{
+	width:28px;
+	height:28px;
+	background-position:-224px 0
+}
+
+.flair[href="#S64Pikachu"]{
+	width:28px;
+	height:28px;
+	background-position:-252px 0
+}
+
+.flair[href="#S64Samus"]{
+	width:28px;
+	height:28px;
+	background-position:-280px 0
+}
+
+.flair[href="#S64Yoshi"]{
+	width:28px;
+	height:28px;
+	background-position:-308px 0
+}
+
+.flair[href="#BrawlBowser"],.flair[href="#PmBowser"]{
+	width:28px;
+	height:28px;
+	background-position:0 -28px
+}
+
+.flair[href="#BrawlCaptainFalcon"],.flair[href="#PmCaptainFalcon"]{
+	width:28px;
+	height:28px;
+	background-position:-28px -28px
+}
+
+.flair[href="#BrawlCharizard"],.flair[href="#PmCharizard"]{
+	width:28px;
+	height:28px;
+	background-position:-56px -28px
+}
+
+.flair[href="#BrawlDiddyKong"],.flair[href="#PmDiddyKong"]{
+	width:28px;
+	height:28px;
+	background-position:-84px -28px
+}
+
+.flair[href="#BrawlDonkeyKong"],.flair[href="#PmDonkeyKong"]{
+	width:28px;
+	height:28px;
+	background-position:-112px -28px
+}
+
+.flair[href="#BrawlFalco"],.flair[href="#PmFalco"]{
+	width:28px;
+	height:28px;
+	background-position:-140px -28px
+}
+
+.flair[href="#BrawlFox"],.flair[href="#PmFox"]{
+	width:28px;
+	height:28px;
+	background-position:-168px -28px
+}
+
+.flair[href="#BrawlGanondorf"],.flair[href="#PmGanondorf"]{
+	width:28px;
+	height:28px;
+	background-position:-196px -28px
+}
+
+.flair[href="#BrawlIceClimbers"],.flair[href="#PmIceClimbers"]{
+	width:28px;
+	height:28px;
+	background-position:-224px -28px
+}
+
+.flair[href="#BrawlIke"],.flair[href="#PmIke"]{
+	width:28px;
+	height:28px;
+	background-position:-252px -28px
+}
+
+.flair[href="#BrawlIvysaur"],.flair[href="#PmIvysaur"]{
+	width:28px;
+	height:28px;
+	background-position:-280px -28px
+}
+
+.flair[href="#BrawlJigglypuff"],.flair[href="#PmJigglypuff"]{
+	width:28px;
+	height:28px;
+	background-position:-308px -28px
+}
+
+.flair[href="#BrawlKingDeDeDe"],.flair[href="#PmKingDeDeDe"]{
+	width:28px;
+	height:28px;
+	background-position:0 -56px
+}
+
+.flair[href="#BrawlKirby"],.flair[href="#PmKirby"]{
+	width:28px;
+	height:28px;
+	background-position:-28px -56px
+}
+
+.flair[href="#BrawlLink"],.flair[href="#PmLink"]{
+	width:28px;
+	height:28px;
+	background-position:-56px -56px
+}
+
+.flair[href="#BrawlLucario"],.flair[href="#PmLucario"]{
+	width:28px;
+	height:28px;
+	background-position:-84px -56px
+}
+
+.flair[href="#BrawlLucas"],.flair[href="#PmLucas"]{
+	width:28px;
+	height:28px;
+	background-position:-112px -56px
+}
+
+.flair[href="#BrawlLuigi"],.flair[href="#PmLuigi"]{
+	width:28px;
+	height:28px;
+	background-position:-140px -56px
+}
+
+.flair[href="#BrawlMario"],.flair[href="#PmMario"]{
+	width:28px;
+	height:28px;
+	background-position:-168px -56px
+}
+
+.flair[href="#BrawlMarth"],.flair[href="#PmMarth"]{
+	width:28px;
+	height:28px;
+	background-position:-196px -56px
+}
+
+.flair[href="#BrawlMetaKnight"],.flair[href="#PmMetaKnight"]{
+	width:28px;
+	height:28px;
+	background-position:-224px -56px
+}
+
+.flair[href="#BrawlMewtwo"],.flair[href="#PmMewtwo"]{
+	width:28px;
+	height:28px;
+	background-position:-252px -56px
+}
+
+.flair[href="#BrawlMrGameAndWatch"],.flair[href="#PmMrGameAndWatch"]{
+	width:28px;
+	height:28px;
+	background-position:-280px -56px
+}
+
+.flair[href="#BrawlNess"],.flair[href="#PmNess"]{
+	width:28px;
+	height:28px;
+	background-position:-308px -56px
+}
+
+.flair[href="#BrawlOlimar"],.flair[href="#PmOlimar"]{
+	width:28px;
+	height:28px;
+	background-position:0 -84px
+}
+
+.flair[href="#BrawlPeach"],.flair[href="#PmPeach"]{
+	width:28px;
+	height:28px;
+	background-position:-28px -84px
+}
+
+.flair[href="#BrawlPikachu"],.flair[href="#PmPikachu"]{
+	width:28px;
+	height:28px;
+	background-position:-56px -84px
+}
+
+.flair[href="#BrawlPit"],.flair[href="#PmPit"]{
+	width:28px;
+	height:28px;
+	background-position:-84px -84px
+}
+
+.flair[href="#BrawlROB"],.flair[href="#PmROB"]{
+	width:28px;
+	height:28px;
+	background-position:-112px -84px
+}
+
+.flair[href="#BrawlRoy"],.flair[href="#PmRoy"]{
+	width:28px;
+	height:28px;
+	background-position:-140px -84px
+}
+
+.flair[href="#BrawlSamus"],.flair[href="#PmSamus"]{
+	width:28px;
+	height:28px;
+	background-position:-168px -84px
+}
+
+.flair[href="#BrawlSheik"],.flair[href="#PmSheik"]{
+	width:28px;
+	height:28px;
+	background-position:-196px -84px
+}
+
+.flair[href="#BrawlSnake"],.flair[href="#PmSnake"]{
+	width:28px;
+	height:28px;
+	background-position:-224px -84px
+}
+
+.flair[href="#BrawlSonic"],.flair[href="#PmSonic"]{
+	width:28px;
+	height:28px;
+	background-position:-252px -84px
+}
+
+.flair[href="#BrawlSquirtle"],.flair[href="#PmSquirtle"]{
+	width:28px;
+	height:28px;
+	background-position:-280px -84px
+}
+
+.flair[href="#BrawlToonLink"],.flair[href="#PmToonLink"]{
+	width:28px;
+	height:28px;
+	background-position:-308px -84px
+}
+
+.flair[href="#BrawlWario"],.flair[href="#PmWario"]{
+	width:28px;
+	height:28px;
+	background-position:0 -112px
+}
+
+.flair[href="#BrawlWolf"],.flair[href="#PmWolf"]{
+	width:28px;
+	height:28px;
+	background-position:-28px -112px
+}
+
+.flair[href="#BrawlYoshi"],.flair[href="#PmYoshi"]{
+	width:28px;
+	height:28px;
+	background-position:-56px -112px
+}
+
+.flair[href="#BrawlZelda"],.flair[href="#PmZelda"]{
+	width:28px;
+	height:28px;
+	background-position:-84px -112px
+}
+
+.flair[href="#BrawlZeroSuitSamus"],.flair[href="#PmZeroSuitSamus"]{
+	width:28px;
+	height:28px;
+	background-position:-112px -112px
+}
+
+.flair[href="#MeleeBowser"],.flair[href="/Bowser"]{
+	width:28px;
+	height:28px;
+	background-position:-140px -112px
+}
+
+.flair[href="#MeleeCaptainFalcon"],.flair[href="/CF"]{
+	width:28px;
+	height:28px;
+	background-position:-168px -112px
+}
+
+.flair[href="#MeleeDonkeyKong"],.flair[href="/DK"]{
+	width:28px;
+	height:28px;
+	background-position:-196px -112px
+}
+
+.flair[href="#MeleeDrMario"],.flair[href="/DrMario"]{
+	width:28px;
+	height:28px;
+	background-position:-224px -112px
+}
+
+.flair[href="#MeleeFalco"],.flair[href="/Falco"]{
+	width:28px;
+	height:28px;
+	background-position:-252px -112px
+}
+
+.flair[href="#MeleeFox"],.flair[href="/Fox"]{
+	width:28px;
+	height:28px;
+	background-position:-280px -112px
+}
+
+.flair[href="#MeleeGanondorf"],.flair[href="/Ganon"]{
+	width:28px;
+	height:28px;
+	background-position:-308px -112px
+}
+
+.flair[href="#MeleeIceClimbers"],.flair[href="/Icies"]{
+	width:28px;
+	height:28px;
+	background-position:0 -140px
+}
+
+.flair[href="#MeleeJigglypuff"],.flair[href="/Puff"]{
+	width:28px;
+	height:28px;
+	background-position:-28px -140px
+}
+
+.flair[href="#MeleeKirby"],.flair[href="/Kirby"]{
+	width:28px;
+	height:28px;
+	background-position:-56px -140px
+}
+
+.flair[href="#MeleeLink"],.flair[href="/Link"]{
+	width:28px;
+	height:28px;
+	background-position:-84px -140px
+}
+
+.flair[href="#MeleeLuigi"],.flair[href="/Luigi"]{
+	width:28px;
+	height:28px;
+	background-position:-112px -140px
+}
+
+.flair[href="#MeleeMario"],.flair[href="/Mario"]{
+	width:28px;
+	height:28px;
+	background-position:-140px -140px
+}
+
+.flair[href="#MeleeMarth"],.flair[href="/Marth"]{
+	width:28px;
+	height:28px;
+	background-position:-168px -140px
+}
+
+.flair[href="#MeleeMewtwo"],.flair[href="/Mewtwo"]{
+	width:28px;
+	height:28px;
+	background-position:-196px -140px
+}
+
+.flair[href="#MeleeMrGameAndWatch"],.flair[href="/GNW"]{
+	width:28px;
+	height:28px;
+	background-position:-224px -140px
+}
+
+.flair[href="#MeleeNess"],.flair[href="/Ness"]{
+	width:28px;
+	height:28px;
+	background-position:-252px -140px
+}
+
+.flair[href="#MeleePeach"],.flair[href="/Peach"]{
+	width:28px;
+	height:28px;
+	background-position:-280px -140px
+}
+
+.flair[href="#MeleePichu"],.flair[href="/Pichu"]{
+	width:28px;
+	height:28px;
+	background-position:-308px -140px
+}
+
+.flair[href="#MeleePikachu"],.flair[href="/Pikachu"]{
+	width:28px;
+	height:28px;
+	background-position:0 -168px
+}
+
+.flair[href="#MeleeRoy"],.flair[href="/Roy"]{
+	width:28px;
+	height:28px;
+	background-position:-28px -168px
+}
+
+.flair[href="#MeleeSamus"],.flair[href="/Samus"]{
+	width:28px;
+	height:28px;
+	background-position:-56px -168px
+}
+
+.flair[href="#MeleeSheik"],.flair[href="/Sheik"]{
+	width:28px;
+	height:28px;
+	background-position:-84px -168px
+}
+
+.flair[href="#MeleeYoshi"],.flair[href="/Yoshi"]{
+	width:28px;
+	height:28px;
+	background-position:-112px -168px
+}
+
+.flair[href="#MeleeYoungLink"],.flair[href="/YL"]{
+	width:28px;
+	height:28px;
+	background-position:-140px -168px
+}
+
+.flair[href="#MeleeZelda"],.flair[href="/Zelda"]{
+	width:28px;
+	height:28px;
+	background-position:-168px -168px
+}
+
+.flair[href="#Sm4shAlph"]{
+	width:28px;
+	height:28px;
+	background-position:-196px -168px
+}
+
+.flair[href="#Sm4shBowser"]{
+	width:28px;
+	height:28px;
+	background-position:-224px -168px
+}
+
+.flair[href="#Sm4shBowserJr"]{
+	width:28px;
+	height:28px;
+	background-position:-252px -168px
+}
+
+.flair[href="#Sm4shCaptainFalcon"]{
+	width:28px;
+	height:28px;
+	background-position:-280px -168px
+}
+
+.flair[href="#Sm4shCharizard"]{
+	width:28px;
+	height:28px;
+	background-position:-308px -168px
+}
+
+.flair[href="#Sm4shDarkPit"]{
+	width:28px;
+	height:28px;
+	background-position:0 -196px
+}
+
+.flair[href="#Sm4shDiddyKong"],.flair[href="#Sm4shDiddy"]{
+	width:28px;
+	height:28px;
+	background-position:-28px -196px
+}
+
+.flair[href="#Sm4shDonkeyKong"]{
+	width:28px;
+	height:28px;
+	background-position:-56px -196px
+}
+
+.flair[href="#Sm4shDrMario"]{
+	width:28px;
+	height:28px;
+	background-position:-84px -196px
+}
+
+.flair[href="#Sm4shDuckHunt"]{
+	width:28px;
+	height:28px;
+	background-position:-112px -196px
+}
+
+.flair[href="#Sm4shFalco"]{
+	width:28px;
+	height:28px;
+	background-position:-140px -196px
+}
+
+.flair[href="#Sm4shFemaleRobin"]{
+	width:28px;
+	height:28px;
+	background-position:-168px -196px
+}
+
+.flair[href="#Sm4shFemaleVillager"]{
+	width:28px;
+	height:28px;
+	background-position:-196px -196px
+}
+
+.flair[href="#Sm4shFemaleWiiFitTrainer"]{
+	width:28px;
+	height:28px;
+	background-position:-224px -196px
+}
+
+.flair[href="#Sm4shFox"]{
+	width:28px;
+	height:28px;
+	background-position:-252px -196px
+}
+
+.flair[href="#Sm4shGanondorf"]{
+	width:28px;
+	height:28px;
+	background-position:-280px -196px
+}
+
+.flair[href="#Sm4shGreninja"]{
+	width:28px;
+	height:28px;
+	background-position:-308px -196px
+}
+
+.flair[href="#Sm4shIggy"]{
+	width:28px;
+	height:28px;
+	background-position:0 -224px
+}
+
+.flair[href="#Sm4shIke"]{
+	width:28px;
+	height:28px;
+	background-position:-28px -224px
+}
+
+.flair[href="#Sm4shJigglypuff"]{
+	width:28px;
+	height:28px;
+	background-position:-56px -224px
+}
+
+.flair[href="#Sm4shKingDeDeDe"]{
+	width:28px;
+	height:28px;
+	background-position:-84px -224px
+}
+
+.flair[href="#Sm4shKirby"]{
+	width:28px;
+	height:28px;
+	background-position:-112px -224px
+}
+
+.flair[href="#Sm4shLarry"]{
+	width:28px;
+	height:28px;
+	background-position:-140px -224px
+}
+
+.flair[href="#Sm4shLemmy"]{
+	width:28px;
+	height:28px;
+	background-position:-168px -224px
+}
+
+.flair[href="#Sm4shLink"]{
+	width:28px;
+	height:28px;
+	background-position:-196px -224px
+}
+
+.flair[href="#Sm4shLittleMac"]{
+	width:28px;
+	height:28px;
+	background-position:-224px -224px
+}
+
+.flair[href="#Sm4shLucario"]{
+	width:28px;
+	height:28px;
+	background-position:-252px -224px
+}
+
+.flair[href="#Sm4shLucas"]{
+	width:28px;
+	height:28px;
+	background-position:-280px -224px
+}
+
+.flair[href="#Sm4shLucina"]{
+	width:28px;
+	height:28px;
+	background-position:-308px -224px
+}
+
+.flair[href="#Sm4shLudwig"]{
+	width:28px;
+	height:28px;
+	background-position:0 -252px
+}
+
+.flair[href="#Sm4shLuigi"]{
+	width:28px;
+	height:28px;
+	background-position:-28px -252px
+}
+
+.flair[href="#Sm4shMaleRobin"]{
+	width:28px;
+	height:28px;
+	background-position:-56px -252px
+}
+
+.flair[href="#Sm4shMaleVillager"]{
+	width:28px;
+	height:28px;
+	background-position:-84px -252px
+}
+
+.flair[href="#Sm4shMaleWiiFitTrainer"]{
+	width:28px;
+	height:28px;
+	background-position:-112px -252px
+}
+
+.flair[href="#Sm4shMario"]{
+	width:28px;
+	height:28px;
+	background-position:-140px -252px
+}
+
+.flair[href="#Sm4shMarth"]{
+	width:28px;
+	height:28px;
+	background-position:-168px -252px
+}
+
+.flair[href="#Sm4shMegaman"]{
+	width:28px;
+	height:28px;
+	background-position:-196px -252px
+}
+
+.flair[href="#Sm4shMetaKnight"]{
+	width:28px;
+	height:28px;
+	background-position:-224px -252px
+}
+
+.flair[href="#Sm4shMewtwo"]{
+	width:28px;
+	height:28px;
+	background-position:-252px -252px
+}
+
+.flair[href="#Sm4shMiiBrawler"]{
+	width:28px;
+	height:28px;
+	background-position:-280px -252px
+}
+
+.flair[href="#Sm4shMiiGunner"]{
+	width:28px;
+	height:28px;
+	background-position:-308px -252px
+}
+
+.flair[href="#Sm4shMiiSwordfighter"]{
+	width:28px;
+	height:28px;
+	background-position:0 -280px
+}
+
+.flair[href="#Sm4shMorton"]{
+	width:28px;
+	height:28px;
+	background-position:-28px -280px
+}
+
+.flair[href="#Sm4shMrGameAndWatch"],.flair[href="#Sm4shMrG&W"]{
+	width:28px;
+	height:28px;
+	background-position:-56px -280px
+}
+
+.flair[href="#Sm4shNess"]{
+	width:28px;
+	height:28px;
+	background-position:-84px -280px
+}
+
+.flair[href="#Sm4shOlimar"]{
+	width:28px;
+	height:28px;
+	background-position:-112px -280px
+}
+
+.flair[href="#Sm4shPacman"]{
+	width:28px;
+	height:28px;
+	background-position:-140px -280px
+}
+
+.flair[href="#Sm4shPalutena"]{
+	width:28px;
+	height:28px;
+	background-position:-168px -280px
+}
+
+.flair[href="#Sm4shPeach"]{
+	width:28px;
+	height:28px;
+	background-position:-196px -280px
+}
+
+.flair[href="#Sm4shPikachu"]{
+	width:28px;
+	height:28px;
+	background-position:-224px -280px
+}
+
+.flair[href="#Sm4shPit"]{
+	width:28px;
+	height:28px;
+	background-position:-252px -280px
+}
+
+.flair[href="#Sm4shROB"]{
+	width:28px;
+	height:28px;
+	background-position:-280px -280px
+}
+
+.flair[href="#Sm4shRosalina"]{
+	width:28px;
+	height:28px;
+	background-position:-308px -280px
+}
+
+.flair[href="#Sm4shRoy"]{
+	width:28px;
+	height:28px;
+	background-position:0 -308px
+}
+
+.flair[href="#Sm4shRoyKoopa"]{
+	width:28px;
+	height:28px;
+	background-position:-28px -308px
+}
+
+.flair[href="#Sm4shRyu"]{
+	width:28px;
+	height:28px;
+	background-position:-56px -308px
+}
+
+.flair[href="#Sm4shSamus"]{
+	width:28px;
+	height:28px;
+	background-position:-84px -308px
+}
+
+.flair[href="#Sm4shSheik"]{
+	width:28px;
+	height:28px;
+	background-position:-112px -308px
+}
+
+.flair[href="#Sm4shShulk"]{
+	width:28px;
+	height:28px;
+	background-position:-140px -308px
+}
+
+.flair[href="#Sm4shSonic"]{
+	width:28px;
+	height:28px;
+	background-position:-168px -308px
+}
+
+.flair[href="#Sm4shToonLink"]{
+	width:28px;
+	height:28px;
+	background-position:-196px -308px
+}
+
+.flair[href="#Sm4shWario"]{
+	width:28px;
+	height:28px;
+	background-position:-224px -308px
+}
+
+.flair[href="#Sm4shWendy"]{
+	width:28px;
+	height:28px;
+	background-position:-252px -308px
+}
+
+.flair[href="#Sm4shYoshi"]{
+	width:28px;
+	height:28px;
+	background-position:-280px -308px
+}
+
+.flair[href="#Sm4shZelda"]{
+	width:28px;
+	height:28px;
+	background-position:-308px -308px
+}
+
+.flair[href="#Sm4shZeroSuitSamus"],.flair[href="#Sm4shZSSamus"]{
+	width:28px;
+	height:28px;
+	background-position:-336px 0
+}

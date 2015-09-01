@@ -1,14 +1,34 @@
 <aside class="col-md-3">
-    <div class="dplow ranking">
-        <h4>Melee Rankings</h4>
-        <ul>
-		{% for player in site.data.ranking.list limit:5 %}
-		<a href="{{page.postdata}}../rankings#{{player.rank}}">		
-		<li><span>{{ player.rank }}</span>{{ player.name }}</li>
+
+    <div class="dplow ranking me">		
+        <i id="rpm" class="game" href="#ProjectM"></i>
+		<h4>Melee Ranks</h4>        
+		<ul>
+		{% for player in site.data.ranking.melee limit:5 %}
+		<a href="{{page.postdata}}../rankings#m{{player.rank}}">		
+		<li>
+			<span>{{ player.rank }}</span>{{ player.name }}
+			{% for m in player.melee %}<i class="flair" href="#Melee{{m}}" title="{{m}}"></i>{% endfor %}
+		</li>
 		</a>
 		{% endfor %}
         </ul>        
     </div>
+    <div class="dplow ranking pm">
+		<i id="rme" class="game" href="#Melee"></i>
+        <h4>PM Ranks</h4>
+        <ul>
+		{% for player in site.data.ranking.projectm limit:5 %}
+		<a href="{{page.postdata}}../rankings#p{{player.rank}}">		
+		<li>
+			<span>{{ player.rank }}</span>{{ player.name }}
+			{% for m in player.pm %}<i class="flair" href="#Pm{{m}}" title="{{m}}"></i>{% endfor %}
+		</li>
+		</a>
+		{% endfor %}
+        </ul>        
+    </div>
+
 	<div class="dplow">
         <h4>Calendar</h4>
 

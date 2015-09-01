@@ -1,5 +1,15 @@
 {
-	"list":[
+	"instructions": [
+		"This is the ranking for skule smash. How it is determined is not provided here",
+		"If you know JSON then it should be easy to modify it, otherwise look it up.",
+		"Flairs for melee and pm use the following set of characters (case sensitive):",
+			"MELEE:",
+			"Bowser,CaptainFalcon,DonkeyKong,DrMario,Falco,Fox,Ganondorf,IceClimbers,Jigglypuff,Kirby,Link,Luigi,Mario,Marth,Mewtwo,MrGameAndWatch,Ness,Peach,Pichu,Pikachu,Roy,Samus,Sheik,Yoshi,YoungLink,Zelda",
+			"PM:",
+			"Bowser,CaptainFalcon,Charizard,DiddyKong,DonkeyKong,Falco,Fox,Ganondorf,IceClimbers,Ike,Ivysaur,Jigglypuff,KingDeDeDe,Kirby,Link,Lucario,Lucas,Luigi,Mario,Marth,MetaKnight,Mewtwo,MrGameAndWatch,Ness,Olimar,Peach,Pikachu,Pit,ROB,Roy,Samus,Sheik,Snake,Sonic,Squirtle,ToonLink,Wario,Wolf,Yoshi,Zelda,ZeroSuitSamus",
+		"The tournament win icons are located in the /img/tourney folder"
+	],
+	"melee":[
 		{
 			"rank": 1,
 			"name":"Lockon",
@@ -31,6 +41,19 @@
 		{
 			"rank": 6,
 			"name":"MS|Carl"
+		}
+	],
+	"projectm":[
+		{
+			"rank": 1,
+			"name":"NGNL",
+			"melee": ["Luigi"],
+			"pm":["Ike","ROB","Bowser","Olimar"],
+			"description":"",
+		},
+		{
+			"rank": 2,
+			"name":"NGNL's ego",
 		}
 	]
 }
