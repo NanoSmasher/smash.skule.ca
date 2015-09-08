@@ -11,49 +11,51 @@
 	],
 	"melee":[
 		{
-			"rank": 1,
+			"rank":1,
 			"name":"Lockon",
-			"melee": [""],
+			"melee":["Samus"],
 			"pm":[""],
 			"description":"",
-			"wins": ["badge","badge"]
+			"wins":["badge","badge"]
 		},
 		{
-			"rank": 2,
-			"name":"K",
-			"wins": ["badge"]
-		},
-		{
-			"rank": 3,
+			"rank":2,
 			"name":"Silent Zebra",
-			"wins": ["badge"]
+			"melee":["Ganondorf"],
+			"wins":["badge","badge"]
 		},
 		{
-			"rank": 4,
+			"rank":3,
+			"name":"K",
+			"melee":["Sheik"],
+			"description":"Not even UofT",
+			"wins":["badge"]
+		},
+		{
+			"rank":4,
 			"name":"Dances With Pidgeons",
-			"wins": ["badge"]
+			"melee":["Falco"],
+			"wins":["badge"]
 		},
 		{
-			"rank": 5,
-			"name":"Steven Z",
-			"wins": ["badge"]
-		},
-		{
-			"rank": 6,
-			"name":"MS|Carl"
+			"rank":5,
+			"name":"MS|Carl",
+			"melee":["Fox"],
+			"wins":["badge"]
 		}
 	],
 	"projectm":[
 		{
-			"rank": 1,
+			"rank":1,
 			"name":"NGNL",
-			"melee": ["Luigi"],
-			"pm":["Ike","ROB","Bowser","Olimar"],
+			"melee":["Luigi"],
+			"pm":["Ike","ROB","Bowser"],
 			"description":"",
 		},
 		{
-			"rank": 2,
+			"rank":2,
 			"name":"NGNL's ego",
+			"pm":["Olimar"],
 		}
 	]
 }
