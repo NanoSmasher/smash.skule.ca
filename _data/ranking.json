@@ -12,36 +12,50 @@
 	"melee":[
 		{
 			"rank":1,
-			"name":"Lockon",
-			"melee":["Samus"],
+			"name":"n0z1ck",
+			"melee":[""],
 			"pm":[""],
 			"description":"",
-			"wins":["badge","badge"]
+			"wins":["badge"]
 		},
 		{
 			"rank":2,
 			"name":"Silent Zebra",
-			"melee":["Ganondorf"],
-			"wins":["badge","badge"]
+            "melee":["Ganondorf"],
 		},
 		{
 			"rank":3,
-			"name":"K",
-			"melee":["Sheik"],
-			"description":"Not even UofT",
-			"wins":["badge"]
+			"name":"tysonZ",
 		},
 		{
 			"rank":4,
-			"name":"Dances With Pidgeons",
-			"melee":["Falco"],
-			"wins":["badge"]
+			"name":"Johnny",
+			"melee":["Ganondorf"],
 		},
 		{
 			"rank":5,
-			"name":"MS|Carl",
-			"melee":["Fox"],
-			"wins":["badge"]
+			"name":"Dances with Pigeons",
+			"melee":["Falco"],
+		},
+		{
+			"rank":6,
+			"name":"Alex",
+		},
+		{
+			"rank":7,
+			"name":"Rumble",
+		},
+		{
+			"rank":8,
+			"name":"Squeaky",
+		},
+		{
+			"rank":9,
+			"name":"Duck Chris",
+		},
+		{
+			"rank":10,
+			"name":"Destiknee",
 		}
 	],
 	"projectm":[
