@@ -1,5 +1,5 @@
 {
-   "list":[
+   "melee":[
       {
          "name": "The Pit",
          "pic": "temp.jpg",
@@ -25,6 +25,26 @@
          "description":"Enter Wallberg from King's College road and turn left. Common room is in the southeast corner of the building on the first floor. The room houses a permanent Wii setup featuring Melee (20XX), more Melee (Kadano's Debug), Brawl (upon removal of SD card) and Project M (3.6). If you are lucky, you might even have a chance to practivce the original smash 64.",
       },
       {
+         "name": "Chestnut Royale",
+         "pic": "temp.jpg",
+         "place": "Chestnut Residence: 1836",
+         "description":"With a CRT hooked up for both PM and melee, the feens are running high even in res. Check out Chestnut and maybe find another person to study with?",
+      }
+   ],
+   "pm":[
+      {
+         "name": "The Pit",
+         "pic": "temp.jpg",
+         "place": "Sandford Fleming Basement: SF Atrium",
+         "description":"Has two student-run stores that sell food. Usual place for events such as the weekly Pit Smash. Otherwise, there is no smashing of the melee/pm kind here.",
+      },
+      {
+         "name": "MSE Common Room",
+         "pic": "temp.jpg",
+         "place": "Wallberg Building: WB 143",
+         "description":"Enter Wallberg from King's College road and turn left. Common room is in the southeast corner of the building on the first floor. The room houses a permanent Wii setup featuring Melee (20XX), more Melee (Kadano's Debug), Brawl (upon removal of SD card) and Project M (3.6). If you are lucky, you might even have a chance to practivce the original smash 64.",
+      },
+      {
          "name": "EngSci Common Room",
          "pic": "temp.jpg",
          "place": "Wallberg Building: WB 143",
@@ -41,6 +61,20 @@
          "pic": "temp.jpg",
          "place": "Sandford Fleming: SF first floor",
          "description":"Enter from the front of SF and take the first two right turns, the T1 room is in the alleyway. Has a permanent Project M setup on a non-CRT; usually has spare controllers.",
-      } 
-   ]
+      },
+      {
+         "name": "Chestnut Royale",
+         "pic": "temp.jpg",
+         "place": "Chestnut Residence: 1836",
+         "description":"With a CRT hooked up for both PM and melee, the feens are running high even in res. Check out Chestnut and maybe find another person to study with?",
+      }
+    ],
+    "smash4":[
+      {
+         "name": "CSSU",
+         "pic": "temp.jpg",
+         "place": "Bahen Center: BA Second floor",
+         "description":"Casual and competitve .",
+      }
+    ]
 }

@@ -13,7 +13,7 @@
 		{
 			"rank":1,
 			"name":"n0z1ck",
-			"melee":[""],
+			"melee":["Sheik"],
 			"pm":[""],
 			"description":"",
 			"wins":["badge"]
@@ -26,6 +26,7 @@
 		{
 			"rank":3,
 			"name":"tysonZ",
+            "melee":["Fox","Falco","Marth"],
 		},
 		{
 			"rank":4,
@@ -48,14 +49,6 @@
 		{
 			"rank":8,
 			"name":"Squeaky",
-		},
-		{
-			"rank":9,
-			"name":"Duck Chris",
-		},
-		{
-			"rank":10,
-			"name":"Destiknee",
 		}
 	],
 	"projectm":[
