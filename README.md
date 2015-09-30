@@ -55,4 +55,14 @@ Do not touch **_site**. Ever. Jekyll will automatically update the folder. What 
     ```
  3. FTP everything in the **_site** folder to wherever you want. It wil most likely be the **/public_html** folder. If you are lazy, I've prepared a [small script that syncs a repo](https://gist.github.com/NanoSmasher/cdce664c6cd90c323108) to do it for you.
 
+Things to do
+------------
+
+- [ ] Locations page: Create a checkmark table
+- [ ] Rankings: convert into a Javascript Object (This will stop the entire **_site** folder from updating every single time)
+- [ ] About page: dropdown Q&A tabs
+- [ ] Add upcoming tournament right below main pages
+- [ ] Game Flexible CSS
+- [ ] Get better images
+
 Voila! Thanks for reading ~ Nanosmasher

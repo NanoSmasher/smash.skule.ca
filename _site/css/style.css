@@ -340,6 +340,10 @@ aside .pm{
 	background: #673ab7;
 }
 
+div.row div.col-md-4:nth-child(even) .pm h4 {
+	background: #311b92;
+}
+
 .icon {
   margin: 10px;
   display: inline-block;

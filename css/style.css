@@ -336,11 +336,15 @@ aside .pm{
 }
 
 .pm ul a li span, .pm b {
-	background: #311b92;
+	background: #{{ site.colour.pmlight }};
 }
 
 .pm h4, .pm ul a:nth-child(even) li span, div.row div.rank:nth-child(even).pm b {
-	background: #673ab7;
+	background: #{{ site.colour.pmdark }};
+}
+
+div.row div.col-md-4:nth-child(even) .pm h4 {
+	background: #{{ site.colour.pmlight }};
 }
 
 .icon {

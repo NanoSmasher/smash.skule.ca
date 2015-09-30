@@ -25,18 +25,18 @@
 		},
 		{
 			"rank":3,
-			"name":"tysonZ",
-            "melee":["Fox","Falco","Marth"],
+			"name":"Milk",
+            "melee":["Peach"],
 		},
 		{
 			"rank":4,
-			"name":"Johnny",
-			"melee":["Ganondorf"],
+			"name":"tysonZ",
+			"melee":["CaptainFalcon"],
 		},
 		{
 			"rank":5,
-			"name":"Dances with Pigeons",
-			"melee":["Falco"],
+			"name":"Destiknee",
+			"melee":["Fox"],
 		},
 		{
 			"rank":6,

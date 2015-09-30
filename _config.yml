@@ -9,6 +9,8 @@ colour:
   overlight: EFEFEF
   dark: C0392B
   overdark: FEFEFE
+  pmlight: 311b92
+  pmdark: 673ab7
 
 markdown: kramdown
 permalink: '/tournament/:title/'
