@@ -7,7 +7,7 @@ layout: default
 {% for post in site.posts %}
 	{% capture d %}{{ post.date | date: "%Y%j" }}{% endcapture %}
 	{% if  d >= split %}
-	<div class="col-md-4 {%if post.game == 'pm' %}pm{% endif %}">
+	<div class="col-md-4 {%if post.game contains 'ProjectM' %}pm{% endif %}">
 		<article class="dplow">
 			<h4>{{ post.name }}</h4>
 			<a href="../tournament/{{ post.title | replace: ' ','-'}}">

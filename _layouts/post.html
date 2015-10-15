@@ -19,6 +19,7 @@ postdata: "../"
 					<span><i class="glyphicon glyphicon-calendar"></i>Date: {{ page.date | date: "%A %B %-d, %Y" }}</span> 
 					<span><i class="glyphicon glyphicon-time"></i>Time: {{ page.time }}</span> 
 					<span><i class="glyphicon glyphicon-map-marker"></i>Location: {{ page.loc }}</span>
+                    <span><i class="glyphicon glyphicon-tower"></i>Game: {% for g in page.game %}<i style="vertical-align:middle" class="game" href="#{{g}}" title="{{g}}"></i> {% endfor %}</span>
                     </div>
 				<div class="col-md-4 col-md-offset-1 dplow peak"><img class="img-responsive" src="../../img/tourney/{{ page.pic }}" /></div>
 			</div>
@@ -26,8 +27,10 @@ postdata: "../"
 				<div class="col-md-12 dplow">
 					<h3>Description</h3>
 					<p>{{ content }}</p>
-					<iframe src="{{ page.bracket }}/module?show_standings=1&tab=standings" width="100%" height="500" frameborder="0" scrolling="auto"></iframe>
-					<p>Bracket Link: <a href="{{ page.bracket }}">{{ page.bracket }}</a></p>
+                    {% for b in page.bracket %}
+					<iframe src="{{b}}/module?show_standings=1&tab=standings" width="100%" height="500" frameborder="0" scrolling="auto"></iframe>
+					<p>Bracket Link: <a href="{{ b }}">{{ b }}</a></p>
+                    {% endfor %}
 				</div>
 			</div>
 		</div>

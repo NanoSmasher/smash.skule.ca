@@ -18,7 +18,7 @@ layout: default
 	{% capture d %}{{ post.date | date: "%Y%j" }}{% endcapture %}
 	{% if  d < split %}
 	<div class="col-md-4">
-		<article class="dplow {%if post.game == 'pm' %}pm{% endif %}">
+		<article class="dplow {%if post.game contains 'ProjectM' %}pm{% endif %}">
 			<h4>{{ post.name }}</h4>
 			<a href="../tournament/{{ post.title | replace: ' ','-'}}">
 			<div class="info">{{ post.date | date: "%A %B %-d, %Y" }}
