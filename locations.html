@@ -3,70 +3,32 @@ permalink: /locations/
 layout: default
 ---
 
-<div class="tabbable dplow">
-    <ul>
-	<li class="active">
-	    <a data-toggle="tab" href="#m1">UofT Feen Spots</a>
-	</li>
-	{% assign count = '2' %}
-	{% for loc in site.data.location.melee %}
-	<li class="">
-	    <a data-toggle="tab" href="#m{{ count }}">{{ loc.name }}</a>
-	</li>
-	{% capture count %}{{ count | plus:'1' }}{% endcapture %}
-	{% endfor %}
-    </ul>
-    <div class="tab-content">
-	<div id="m1" class="tab-pane active">
-	    <br />
-		<h3>Melee Feen Spots</h3>
-		<br />
-	    <p>Here are the places where you can catch people playing Super Smash Brothers Melee for the Nintendo Gamecube, Super Smash Brothers Project M for the Nintendo Wii, Super Smash Brothers for Wii U for the Wii U, and other Smash games. Please don't be a dick: The locations here aren't for you to barge in, break the provided controllers, and leave with 50 pounds of shit on the ground. Treat them with courtesy and common sense.</p>
-	</div>
-	{% assign count = '2' %}
-	{% for loc in site.data.location.melee   %}
-    <div id="m{{ count }}" class="tab-pane">
-		<img class="img-responsive" src="../img/location/{{ loc.pic }}"/>
-		<h3>{{ loc.name }}</h3>
-		<p><strong>{{ loc.place }}</strong></p>
-		<br />
-		<p>{{ loc.description }}</p>
-	</div>
-	{% capture count %}{{ count | plus:'1' }}{% endcapture %}
-	{% endfor %}	
-    </div>
-</div>
+<div class="dplow col-md-10 col-md-offset-1">
+<p style="margin-top:1em">Here are the places where you can catch people playing Super Smash Brothers Melee for the Nintendo Gamecube, Super Smash Brothers Project M for the Nintendo Wii, Super Smash Brothers for Wii U for the Wii U, and other Smash games. Please don't be a dick: The locations here aren't for you to barge in, break the provided controllers, and leave with 50 pounds of shit on the ground. Treat them with courtesy and common sense, wrap up controllers and turn off the system when you leave..</p>
+<table class="text-center location" width="100%">
+<tr>
+<th colspan="2" class="text-left">Feen Spots</td>
+<th><i class="game" href="#Melee" title="Super Smash Brothers Melee"></i></td>
+<th><i class="game" href="#ProjectM" title="Project M"></i></td>
+<th><i class="game" href="#Brawl" title="Super Smash Brothers Brawl"></i></td>
+<th><i class="game" href="#SSB4" title="Super Smash Brothers 4 Wii U"></i></td>
+<th><i class="game" href="#64" title="Super Smash Brothers"></i></td>
+</tr>
 
-<div class="tabbable dplow">
-    <ul>
-	<li class="active">
-	    <a data-toggle="tab" href="#p1">UofT Feen Spots</a>
-	</li>
-	{% assign count = '2' %}
-	{% for loc in site.data.location.pm %}
-	<li class="">
-	    <a data-toggle="tab" href="#p{{ count }}">{{ loc.name }}</a>
-	</li>
-	{% capture count %}{{ count | plus:'1' }}{% endcapture %}
-	{% endfor %}
-    </ul>
-    <div class="tab-content">
-	<div id="p1" class="tab-pane active">
-	    <br />
-		<h3>Project M Feens</h3>
-		<br />
-	    <p>Here are the places where you can catch people playing Super Smash Brothers Melee for the Nintendo Gamecube, Super Smash Brothers Project M for the Nintendo Wii, Super Smash Brothers for Wii U for the Wii U, and other Smash games. Please don't be a dick: The locations here aren't for you to barge in, break the provided controllers, and leave with 50 pounds of shit on the ground. Treat them with courtesy and common sense.</p>
-	</div>
-	{% assign count = '2' %}
-	{% for loc in site.data.location.pm   %}
-    <div id="p{{ count }}" class="tab-pane">
-		<img class="img-responsive" src="../img/location/{{ loc.pic }}"/>
-		<h3>{{ loc.name }}</h3>
-		<p><strong>{{ loc.place }}</strong></p>
-		<br />
-		<p>{{ loc.description }}</p>
-	</div>
-	{% capture count %}{{ count | plus:'1' }}{% endcapture %}
-	{% endfor %}	
-    </div>
+{% for loc in site.data.location.location %}
+<tr>
+<td colspan="2" class="text-left">
+    <b>{{ loc.name }}</b>
+    <p>
+    <h6><i class="glyphicon glyphicon-map-marker"></i> {{ loc.place }}</h6>
+    </p>
+</td><!-- {{ loc.description }} -->
+<td>{% if loc.ssbm == 1 %}<span class="glyphicon glyphicon-ok" aria-hidden="true"></span>{% endif %}</td>
+<td>{% if loc.ssbpm == 1 %}<span class="glyphicon glyphicon-ok" aria-hidden="true"></span>{% endif %}</td>
+<td>{% if loc.ssbb == 1 %}<span class="glyphicon glyphicon-ok" aria-hidden="true"></span>{% endif %}</td>
+<td>{% if loc.ssb4 == 1 %}<span class="glyphicon glyphicon-ok" aria-hidden="true"></span>{% endif %}</td>
+<td>{% if loc.ssb64 == 1 %}<span class="glyphicon glyphicon-ok" aria-hidden="true"></span>{% endif %}</td>
+</tr>
+{% endfor %}
+</table>
 </div>

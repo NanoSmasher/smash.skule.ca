@@ -405,6 +405,15 @@ footer p {margin:0;}
    	###                     MISC                        ###
    	####################################################### */
 
+.location {
+    margin: 1em 0em 1em;
+}
+
+.location th, .location td {
+    padding: 10px;
+    border: 1px solid grey;
+}
+
 .about {
 	text-align: center;
 }

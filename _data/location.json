@@ -1,80 +1,72 @@
 {
-   "melee":[
+   "location":[
       {
          "name": "The Pit",
          "pic": "temp.jpg",
          "place": "Sandford Fleming Basement: SF Atrium",
-         "description":"Has two student-run stores that sell food. Usual place for events such as the weekly Pit Smash. Otherwise, there is no smashing of the melee/pm kind here.",
+         "description":"Has two student-run stores that sell food. Place for Pit Smash but no permanent setups.",
       },
       {
          "name": "ECE Common Room",
          "pic": "temp.jpg",
          "place": "Sandford Fleming: SF B650",
-         "description":"No permanent setups as of yet but when there is Melee is the primary game. Engineering students (read: Stephen Dawe) play here often so it is populated. Directions: Enter the south east enterance (facing king's college rd), walk down the stairs and turn left at the corner, and take the third door on your left.",
-      },
-      {
-         "name": "MP",
-         "pic": "temp.jpg",
-         "place": "McLellan Physical Laboratories: MP 217",
-         "description":"Non-engineering location. To get here come in from the main entrance and take the stairs to the right. The astronomy club room should be open and to the right of the stairwell. Holds a Melee setup.",
-      },
-      {
-         "name": "MSE Common Room",
-         "pic": "temp.jpg",
-         "place": "Wallberg Building: WB 143",
-         "description":"Enter Wallberg from King's College road and turn left. Common room is in the southeast corner of the building on the first floor. The room houses a permanent Wii setup featuring Melee (20XX), more Melee (Kadano's Debug), Brawl (upon removal of SD card) and Project M (3.6). If you are lucky, you might even have a chance to practivce the original smash 64.",
-      },
-      {
-         "name": "Chestnut Royale",
-         "pic": "temp.jpg",
-         "place": "Chestnut Residence: 1836",
-         "description":"With a CRT hooked up for both PM and melee, the feens are running high even in res. Check out Chestnut and maybe find another person to study with?",
-      }
-   ],
-   "pm":[
-      {
-         "name": "The Pit",
-         "pic": "temp.jpg",
-         "place": "Sandford Fleming Basement: SF Atrium",
-         "description":"Has two student-run stores that sell food. Usual place for events such as the weekly Pit Smash. Otherwise, there is no smashing of the melee/pm kind here.",
-      },
-      {
-         "name": "MSE Common Room",
-         "pic": "temp.jpg",
-         "place": "Wallberg Building: WB 143",
-         "description":"Enter Wallberg from King's College road and turn left. Common room is in the southeast corner of the building on the first floor. The room houses a permanent Wii setup featuring Melee (20XX), more Melee (Kadano's Debug), Brawl (upon removal of SD card) and Project M (3.6). If you are lucky, you might even have a chance to practivce the original smash 64.",
+         "description":"Engineering students (read: Stephen Dawe) play here often so it is populated. Melee is strongest here.",
+         "ssbm":1,
+         "ssbpm":1,
       },
       {
          "name": "EngSci Common Room",
          "pic": "temp.jpg",
-         "place": "Wallberg Building: WB 143",
-         "description":"To find the common room enter through the west entrance of the Bahen building, go up the stairs on your right and the common room is the transparent glass room behind you. Project M is firmly at the back of the Engsci common room.",
+         "place": "Bahen Centre: BA Second floor",
+         "description":"To find the common room enter through the west entrance of the Bahen building, go up the stairs on your right and the common room is the transparent glass room behind you.",
+         "ssbpm":1,
       },
       {
          "name": "Chem Common Room",
          "pic": "temp.jpg",
          "place": "Wallberg Building: WB 238",
-         "description":"Found right in the center hallway of the second floor of Wallberg, take any entrance and a flight of stairs and it should be easy to find from there. Has a permanent Project M setup on a non-CRT; usually has spare controllers.",
+         "description":"Found right in the center hallway of the second floor of Wallberg, take any entrance and a flight of stairs and it should be easy to find from there.",
+         "ssbb":1,
+         "ssbpm":1,
       },
       {
          "name": "T1 Common Room",
          "pic": "temp.jpg",
          "place": "Sandford Fleming: SF first floor",
-         "description":"Enter from the front of SF and take the first two right turns, the T1 room is in the alleyway. Has a permanent Project M setup on a non-CRT; usually has spare controllers.",
+         "description":"Enter from the front of SF and take the first two right turns, the T1 room is in the alleyway.",
+         "ssbpm":1,
+      },
+      {
+         "name": "MSE Common Room",
+         "pic": "temp.jpg",
+         "place": "Wallberg Building: WB 143",
+         "description":"Spacious room with a CRT and holds almost all the smash games.",
+         "ssb64":1,
+         "ssbm":1,
+         "ssbb":1,
+         "ssbpm":1,
+      },
+      {
+         "name": "MP",
+         "pic": "temp.jpg",
+         "place": "McLellan Physical Laboratories: MP 217",
+         "description":"Non-engineering location. To get here come in from the main entrance and take the stairs to the right. The astronomy club room should be open and to the right of the stairwell.",
+         "ssbm":1,
+      },
+      {
+         "name": "CSSU",
+         "pic": "temp.jpg",
+         "place": "Bahen Center: BA Second floor",
+         "description":"Non-engineering location. Casual and competitve.",
+         "ssb4":1,
       },
       {
          "name": "Chestnut Royale",
          "pic": "temp.jpg",
          "place": "Chestnut Residence: 1836",
-         "description":"With a CRT hooked up for both PM and melee, the feens are running high even in res. Check out Chestnut and maybe find another person to study with?",
-      }
-    ],
-    "smash4":[
-      {
-         "name": "CSSU",
-         "pic": "temp.jpg",
-         "place": "Bahen Center: BA Second floor",
-         "description":"Casual and competitve .",
+         "description":"Off campus location. The feens are running high even in res. Check out Chestnut and maybe find another person to study with?",
+         "ssbm":1,
+         "ssbpm":1,
       }
     ]
 }
