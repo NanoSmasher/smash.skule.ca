@@ -144,7 +144,7 @@ document.write('<div class="row">');
     for (i in pmlist) {
         var r = pmlist[i];
         divpm += '<div class="col-md-12 dplow rank pm">';
-        divpm += '<a id="m' + players[r].pmrank + '" class="anchor"></a>';
+        divpm += '<a id="p' + players[r].pmrank + '" class="anchor"></a>';
         divpm += '<table border=0><tr><td><b>' + players[r].pmrank + '</b></td>';
         divpm += '<td><h5>' + players[r].name + '</h5></td></tr>';
         divpm += '<tr><td colspan=2>PM Mains: ';
