@@ -8,9 +8,8 @@
 
 .game[href="#64"],.game[href="#Melee"],.game[href="#SSB4"],.game[href="#Brawl"],.game[href="#ProjectM"]{
 	content:"";
-	position:absolute;
-	top:16px;
-	right:16px;
+	position:relative;
+	display:inline-block;
 	width:60px;
 	height:20px;
 	background:url("../img/games.png") no-repeat;

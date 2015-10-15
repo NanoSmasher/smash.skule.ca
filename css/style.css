@@ -24,6 +24,25 @@ h4 {
     text-transform: uppercase;
 }
 
+aside h3 {
+	text-align: center;
+    margin: 0;
+    padding: 0.8em;
+    font-size: 16px;
+    height: auto;
+    width: 50%;
+    margin-bottom: 2.5em;
+    line-height: 0.5em;
+    color: #{{ site.colour.overdark }};
+    background: #{{ site.colour.dark }};
+    text-transform: uppercase;
+    float: left;
+}
+
+aside h3#rpm {
+    background: #{{ site.colour.pmdark }};
+}
+
 ul, ol, li {
 	list-style-type: none;
 	padding:0px;
@@ -179,8 +198,8 @@ div.row div.rank:nth-child(even) b {
 	display: block;
 	float: center;
 	padding: 12px 0;
-	font-size: 38px;
-	line-height: 38px;
+	font-size: 22px;
+	line-height: 22px;
 }
 
 .rank p {
@@ -335,11 +354,12 @@ aside .pm{
 	display: none;
 }
 
-.pm ul a li span, .pm b {
+
+ul.pm a li span, .pm b {
 	background: #{{ site.colour.pmlight }};
 }
 
-.pm h4, .pm ul a:nth-child(even) li span, div.row div.rank:nth-child(even).pm b {
+.pm h4, ul.pm a:nth-child(even) li span, div.row div.rank:nth-child(even).pm b {
 	background: #{{ site.colour.pmdark }};
 }
 
