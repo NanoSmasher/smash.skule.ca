@@ -6,7 +6,7 @@ var players = [
         "pmrank":4,
 	    "pm":["Sheik"],
 	    "description":"",
-	    "wins":["badge"]
+	    "wins":["melee","melee","melee"]
     },
     {
 	    "name":"Silent Zebra",
@@ -46,7 +46,8 @@ var players = [
     {
 	    "name":"Snice",
         "pmrank":1,
-	    "pm":["Charizard"]
+	    "pm":["Charizard"],
+        "wins":["pm"]
     },
     {
 	    "name":"Jewtwo",
@@ -130,7 +131,7 @@ document.write('<div class="row">');
         if (players[r].description) { divme += '<p>' + players[r].description + '</p>'; };
         divme += '</td></tr><tr><td colspan=2>Placements: ';
         for (m in players[r].wins) {
-            divme += '<img src="../img/tourney/' + players[r].wins[m] + '.png" alt="' + players[r].wins[m] + '"';
+            divme += '<img src="../img/tourney/' + players[r].wins[m] + '.png" title="' + players[r].wins[m] + '"/>';
         }
         divme += '</td></tr></table></div>';   
     }
@@ -158,7 +159,7 @@ document.write('<div class="row">');
         if (players[r].description) { divme += '<p>' + players[r].description + '</p>'; };
         divpm += '</td></tr><tr><td colspan=2>Placements: ';
         for (m in players[r].wins) {
-            divpm += '<img src="../img/tourney/' + players[r].wins[m] + '.png" alt="' + players[r].wins[m] + '"';
+            divpm += '<img src="../img/tourney/' + players[r].wins[m] + '.png" title="' + players[r].wins[m] + '"/>';
         }
         divpm += '</td></tr></table></div>';   
     }
