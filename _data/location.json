@@ -5,6 +5,7 @@
          "pic": "temp.jpg",
          "place": "Sandford Fleming Basement: SF Atrium",
          "description":"Has two student-run stores that sell food. Place for Pit Smash but no permanent setups.",
+		 "google": ["43.6600482631201","-79.39500957727432"]
       },
       {
          "name": "ECE Common Room",
@@ -15,10 +16,11 @@
          "ssbpm":1,
       },
       {
-         "name": "EngSci Common Room",
+         "name": "Chestnut Royale",
          "pic": "temp.jpg",
-         "place": "Bahen Centre: BA Second floor",
-         "description":"To find the common room enter through the west entrance of the Bahen building, go up the stairs on your right and the common room is the transparent glass room behind you.",
+         "place": "Chestnut Residence: 1836",
+         "description":"Off campus location. The feens are running high even in res. Check out Chestnut and maybe find another person to study with?",
+         "ssbm":1,
          "ssbpm":1,
       },
       {
@@ -28,6 +30,20 @@
          "description":"Found right in the center hallway of the second floor of Wallberg, take any entrance and a flight of stairs and it should be easy to find from there.",
          "ssbb":1,
          "ssbpm":1,
+      },
+      {
+         "name": "EngSci Common Room",
+         "pic": "temp.jpg",
+         "place": "Bahen Centre: BA Second floor",
+         "description":"To find the common room enter through the west entrance of the Bahen building, go up the stairs on your right and the common room is the transparent glass room behind you.",
+         "ssbm":1,
+      },
+      {
+         "name": "MP",
+         "pic": "temp.jpg",
+         "place": "McLellan Physical Laboratories: MP 217",
+         "description":"Non-engineering location. To get here come in from the main entrance and take the stairs to the right. The astronomy club room should be open and to the right of the stairwell.",
+         "ssbm":1,
       },
       {
          "name": "T1 Common Room",
@@ -45,13 +61,7 @@
          "ssbm":1,
          "ssbb":1,
          "ssbpm":1,
-      },
-      {
-         "name": "MP",
-         "pic": "temp.jpg",
-         "place": "McLellan Physical Laboratories: MP 217",
-         "description":"Non-engineering location. To get here come in from the main entrance and take the stairs to the right. The astronomy club room should be open and to the right of the stairwell.",
-         "ssbm":1,
+		 "20xx":1
       },
       {
          "name": "CSSU",
@@ -59,14 +69,7 @@
          "place": "Bahen Center: BA Second floor",
          "description":"Non-engineering location. Casual and competitve.",
          "ssb4":1,
-      },
-      {
-         "name": "Chestnut Royale",
-         "pic": "temp.jpg",
-         "place": "Chestnut Residence: 1836",
-         "description":"Off campus location. The feens are running high even in res. Check out Chestnut and maybe find another person to study with?",
-         "ssbm":1,
-         "ssbpm":1,
+		 "ssbm":1
       }
     ]
 }

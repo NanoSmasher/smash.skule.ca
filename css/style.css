@@ -433,3 +433,6 @@ footer p {margin:0;}
 	display: block;
 }
 
+.glyphicon-map-marker {
+	color: orange;
+}

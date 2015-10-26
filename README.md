@@ -58,11 +58,11 @@ Do not touch **_site**. Ever. Jekyll will automatically update the folder. What 
 Things to do
 ------------
 
-- [ ] Locations page: Create a checkmark table
-- [ ] Rankings: convert into a Javascript Object (This will stop the entire **_site** folder from updating every single time)
+- [x] Locations page: Create a checkmark table
+- [x] Rankings: convert into a Javascript Object (This will stop the entire **_site** folder from updating every single time)
 - [ ] About page: dropdown Q&A tabs
 - [ ] Add upcoming tournament right below main pages
-- [ ] Game Flexible CSS
+- [x] Game Flexible CSS
 - [ ] Get better images
 
 Voila! Thanks for reading ~ Nanosmasher
