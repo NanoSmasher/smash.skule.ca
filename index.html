@@ -10,4 +10,14 @@ layout: default
 	<span style="float:right;"><a class="icon icon-fb" href="https://www.facebook.com/groups/{{ site.facebook }}"><svg viewBox="0 0 512 512"><path d="M211.9 197.4h-36.7v59.9h36.7V433.1h70.5V256.5h49.2l5.2-59.1h-54.4c0 0 0-22.1 0-33.7 0-13.9 2.8-19.5 16.3-19.5 10.9 0 38.2 0 38.2 0V82.9c0 0-40.2 0-48.8 0 -52.5 0-76.1 23.1-76.1 67.3C211.9 188.8 211.9 197.4 211.9 197.4z"/></svg></a></span>
 	<p>Our Facebook group (UofT SSBM - Super Smash Bros. Melee at University of Toronto) is pretty active, so if you are wondering what is new or when our impulse smash instincts kick in come join us!</p>
 </div>
+{% for post in site.posts limit:1 %}
+    <div id="news" class="col-md-6 col-md-offset-3 dpmid {%if post.game contains 'ProjectM' %}pm{% endif %}">
+		<a href="../tournament/{{ post.title | replace: ' ','-'}}">
+        <article class="dplow">
+			<h4>{{ post.name }}</h4>
+			<div class="info">{{ post.date | date: "%A %B %-d, %Y" }}</div>
+		</article>
+        </a>
+	</div>
+{% endfor %}
 

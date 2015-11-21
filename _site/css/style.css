@@ -402,6 +402,19 @@ footer p {margin:0;}
    	###                     MISC                        ###
    	####################################################### */
 
+#news {
+    padding:0px;
+    margin-top: -2em;
+}
+
+#news .info {
+    margin:0px;
+}
+
+#news .dplow {
+    margin:0px;
+}
+
 .location {
     margin: 1em 0em 1em;
 }

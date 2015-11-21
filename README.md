@@ -61,7 +61,7 @@ Things to do
 - [x] Locations page: Create a checkmark table
 - [x] Rankings: convert into a Javascript Object (This will stop the entire **_site** folder from updating every single time)
 - [ ] About page: dropdown Q&A tabs
-- [ ] Add upcoming tournament right below main pages
+- [x] Add upcoming tournament right below main pages
 - [x] Game Flexible CSS
 - [ ] Get better images
 

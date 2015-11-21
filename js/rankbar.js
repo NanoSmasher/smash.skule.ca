@@ -36,42 +36,39 @@ var players = [
     },
     {
 	    "name":"Milk",
-	    "merank":3,
+	    "merank":4,
         "melee":["Peach"],
     },
     {
 	    "name":"tysonz",
-	    "merank":4,
+	    "merank":3,
 	    "melee":["CaptainFalcon"],
     },
     {
+	    "name":"Johnny",
+	    "merank":5,
+	    "melee":["CaptainFalcon"],        
+    },
+    {
 	    "name":"Destiknee",
-	    "merank":6,
+	    "merank":8,
 	    "melee":["Falco", "Bowser"],
 	    "pmrank":2,
 	    "pm":["Bowser"],
     },
     {
-	    "name":"akbiggs",
-	    "merank":7,
-    },
-    {
-	    "name":"DI Guy",
-	    "merank":8,
-        "melee":["CaptainFalcon"]
-    },
-    {
-	    "name":"Nestibro",
+	    "name":"DesTony",
+        "melee":["CaptainFalcon"],
 	    "merank":9,
     },
     {
-	    "name":"Duck Chris",
-	    "merank":10,
-        "melee":["Sheik"]
+	    "name":"DI Guy",
+	    "merank":7,
+        "melee":["CaptainFalcon"]
     },
     {
 	    "name":"Squeakie",
-	    "merank":5,
+	    "merank":10,
  	    "melee":["Jigglypuff"]
     },
     {
@@ -89,6 +86,7 @@ var players = [
     {
 	    "name":"Dances with Pidgeons",
 	    "melee":["Falco"],
+        "merank": 6,
         "pmrank":5,
 	    "pm":["Falco"]
     },
@@ -108,7 +106,7 @@ var players = [
 	    "melee":["Marth"],
         "pmrank":8,
 	    "pm":["Sonic","Ivysaur"]
-    },
+    }
 ];
 
 // Part 2: Functions

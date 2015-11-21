@@ -4,14 +4,15 @@
          "name": "The Pit",
          "pic": "temp.jpg",
          "place": "Sandford Fleming Basement: SF Atrium",
-         "description":"Has two student-run stores that sell food. Place for Pit Smash but no permanent setups.",
+         "description":"[Sandford Fleming Basement: SF Atrium] Has two student-run stores that sell food. Place for Pit Smash but no permanent setups.",
 		 "google": ["43.6600482631201","-79.39500957727432"]
       },
       {
          "name": "ECE Common Room",
          "pic": "temp.jpg",
          "place": "Sandford Fleming: SF B650",
-         "description":"Engineering students (read: Stephen Dawe) play here often so it is populated. Melee is strongest here.",
+         "description":"[ECE Common Room] Engineering students (read: Stephen Dawe) play here often so it is populated. Melee is strongest here.",
+         "google": ["43.659903", "-79.395188"],
          "ssbm":1,
          "ssbpm":1,
       },
@@ -19,57 +20,64 @@
          "name": "Chestnut Royale",
          "pic": "temp.jpg",
          "place": "Chestnut Residence: 1836",
-         "description":"Off campus location. The feens are running high even in res. Check out Chestnut and maybe find another person to study with?",
+         "description":"[Chestnut Royale] Off campus location. The feens are running high even in res. Check out Chestnut and maybe find another person to study with?",
          "ssbm":1,
          "ssbpm":1,
+         "google": ["43.654047","-79.385218"]
       },
       {
          "name": "Chem Common Room",
          "pic": "temp.jpg",
          "place": "Wallberg Building: WB 238",
-         "description":"Found right in the center hallway of the second floor of Wallberg, take any entrance and a flight of stairs and it should be easy to find from there.",
+         "description":"[Chem Common Room] Found right in the center hallway of the second floor of Wallberg, take any entrance and a flight of stairs and it should be easy to find from there.",
          "ssbb":1,
          "ssbpm":1,
+         "google": ["43.659056","-79.395302"]
       },
       {
-         "name": "EngSci Common Room",
+         "name": "EngSci Commons",
          "pic": "temp.jpg",
          "place": "Bahen Centre: BA Second floor",
-         "description":"To find the common room enter through the west entrance of the Bahen building, go up the stairs on your right and the common room is the transparent glass room behind you.",
+         "description":"[EngSci Common Room] To find the common room enter through the west entrance of the Bahen building, go up the stairs on your right and the common room is the transparent glass room behind you. Often you will find quite relaxing casual play.",
          "ssbm":1,
+         "google": ["43.659825","-79.396992"]
       },
       {
          "name": "MP",
          "pic": "temp.jpg",
          "place": "McLellan Physical Laboratories: MP 217",
-         "description":"Non-engineering location. To get here come in from the main entrance and take the stairs to the right. The astronomy club room should be open and to the right of the stairwell.",
+         "description":"[MP] Non-engineering location. To get here come in from the main entrance and take the stairs to the right. The astronomy club room should be open and to the right of the stairwell.",
          "ssbm":1,
+         "google": ["43.660916","-79.398253"]
       },
       {
          "name": "T1 Common Room",
          "pic": "temp.jpg",
          "place": "Sandford Fleming: SF first floor",
-         "description":"Enter from the front of SF and take the first two right turns, the T1 room is in the alleyway.",
+         "description":"[T1 Common Room] Enter from the front of SF and take the first two right turns, the T1 room is in the alleyway. Despite the large size and disfigured color scheme, the TV is in fact a CRT.",
          "ssbpm":1,
+         "google": ["43.6601151","-79.394899"]
       },
       {
          "name": "MSE Common Room",
          "pic": "temp.jpg",
          "place": "Wallberg Building: WB 143",
-         "description":"Spacious room with a CRT and holds almost all the smash games.",
+         "description":"[MSE Common Room] Spacious room with a CRT and holds almost all the smash games.",
          "ssb64":1,
          "ssbm":1,
          "ssbb":1,
          "ssbpm":1,
-		 "20xx":1
+		 "20xx":1,
+         "google": ["43.659311","-79.394314"]
       },
       {
          "name": "CSSU",
          "pic": "temp.jpg",
          "place": "Bahen Center: BA Second floor",
-         "description":"Non-engineering location. Casual and competitve.",
+         "description":"[CSSU] Non-engineering location. Casual and competitve.",
          "ssb4":1,
-		 "ssbm":1
+		 "ssbm":1,
+         "google": ["43.659296","-79.397484"]
       }
     ]
 }
