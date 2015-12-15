@@ -8,7 +8,7 @@ The website is currently being hosted by the [UofT Skule Smash Club](http://smas
 Why do I have _site here?
 ------------------------
 
-Because [Ruby](https://www.ruby-lang.org/en/) is not installed on some *.skule.ca domains and that can't be changed. Also why I have to use submit a cron job that [syncs the repo](https://gist.github.com/NanoSmasher/cdce664c6cd90c323108) because it doesn't have git either!
+Because [Ruby](https://www.ruby-lang.org/en/) is not installed on some *.skule.ca domains and that can't be changed. Also why I have to use submit a cron job that [syncs the repo](https://gist.github.com/NanoSmasher/cdce664c6cd90c323108) because it doesn't have git either! (Seriously skule is an ancient beast)
 
 Managing the website
 ------------------------
@@ -60,9 +60,11 @@ Things to do
 
 - [x] Locations page: Create a checkmark table
 - [x] Rankings: convert into a Javascript Object (This will stop the entire **_site** folder from updating every single time)
-- [ ] About page: dropdown Q&A tabs
 - [x] Add upcoming tournament right below main pages
 - [x] Game Flexible CSS
+- [ ] About page: dropdown Q&A tabs
 - [ ] Get better images
+- [ ] PR image map: possible modal popup
+- [ ] Paginate the tournament tab (replacing archives)
 
 Voila! Thanks for reading ~ Nanosmasher

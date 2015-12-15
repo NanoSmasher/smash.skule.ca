@@ -11,10 +11,11 @@
          "name": "ECE Common Room",
          "pic": "temp.jpg",
          "place": "Sandford Fleming: SF B650",
-         "description":"[ECE Common Room] Engineering students (read: Stephen Dawe) play here often so it is populated. Melee is strongest here.",
+         "description":"[ECE Common Room] Often populated with Engineering students that should have been studying. The Melee feen is strongest here making it the primary location for checking to see what's up. Please note that the door is password locked and that Project M is on an HDTV.",
          "google": ["43.659903", "-79.395188"],
          "ssbm":1,
          "ssbpm":1,
+         "20xx": 1
       },
       {
          "name": "Chestnut Royale",
@@ -29,13 +30,12 @@
          "name": "Chem Common Room",
          "pic": "temp.jpg",
          "place": "Wallberg Building: WB 238",
-         "description":"[Chem Common Room] Found right in the center hallway of the second floor of Wallberg, take any entrance and a flight of stairs and it should be easy to find from there.",
-         "ssbb":1,
+         "description":"[Chem Common Room] Found right in the center hallway of the second floor of Wallberg, take any entrance and a flight of stairs and it should be easy to find from there. Just note that this system uses a HDTV.",
          "ssbpm":1,
          "google": ["43.659056","-79.395302"]
       },
       {
-         "name": "EngSci Commons",
+         "name": "EngSci Common Room",
          "pic": "temp.jpg",
          "place": "Bahen Centre: BA Second floor",
          "description":"[EngSci Common Room] To find the common room enter through the west entrance of the Bahen building, go up the stairs on your right and the common room is the transparent glass room behind you. Often you will find quite relaxing casual play.",
@@ -65,7 +65,6 @@
          "description":"[MSE Common Room] Spacious room with a CRT and holds almost all the smash games.",
          "ssb64":1,
          "ssbm":1,
-         "ssbb":1,
          "ssbpm":1,
 		 "20xx":1,
          "google": ["43.659311","-79.394314"]
@@ -74,7 +73,7 @@
          "name": "CSSU",
          "pic": "temp.jpg",
          "place": "Bahen Center: BA Second floor",
-         "description":"[CSSU] Non-engineering location. Casual and competitve.",
+         "description":"[CSSU] Non-engineering location. Casual and competitve. The HDTV is for the Wii U, while the CRT is for melee",
          "ssb4":1,
 		 "ssbm":1,
          "google": ["43.659296","-79.397484"]

@@ -5,51 +5,56 @@ var players = [
 	    "melee":["Sheik"],
         "pmrank":4,
 	    "pm":["Sheik"],
-	    "description":"",
-	    "wins":["melee","melee","melee"]
+	    "description":"These players are a threat to take any tournament. Our top 4 players should be no surprise, with N0z1ck winning a bunch of pit smashes. He even has a blog.",
+	    "wins":["melee","melee","melee","melee"]
     },
     {
 	    "name":"Silent Zebra",
 	    "merank":2,
         "melee":["Ganondorf"],
-        "wins":["melee"]
+        "wins":["melee"],
+        "description":"These players are a threat to take any tournament. Our top 4 players should be no surprise, with Silent Zebra picking up the other pit smashes."
     },
     {
 	    "name":"Milk",
-	    "merank":4,
+	    "merank":5,
         "melee":["Peach"],
+        "wins":["melee"],
+        "description":"These players are almost at the level of the top 4. Consistently scary and always threatening to take sets off anyone, they just miss those elusive tournament wins to move up the ladder."
     },
     {
 	    "name":"tysonz",
-	    "merank":3,
+	    "merank":6,
 	    "melee":["CaptainFalcon"],
+        "description":"These players are almost at the level of the top 4. Consistently scary and always threatening to take sets off anyone, they just miss those elusive tournament wins to move up the ladder."
     },
     {
 	    "name":"Johnny",
-	    "merank":5,
-	    "melee":["CaptainFalcon"],        
+	    "merank":3,
+	    "melee":["CaptainFalcon","Sheik","Ganondorf"],
+        "description":"These players are a threat to take any tournament. Our top 4 players should be no surprise, with Johnny dominating in the Melee League."
     },
     {
 	    "name":"Destiknee",
-	    "merank":8,
+	    "merank":7,
 	    "melee":["Falco", "Bowser"],
 	    "pmrank":2,
 	    "pm":["Bowser"],
+        "description":"These players are almost at the level of the top 4. Consistently scary and always threatening to take sets off anyone, they just miss those elusive tournament wins to move up the ladder."
     },
     {
 	    "name":"DesTony",
         "melee":["CaptainFalcon"],
-	    "merank":9,
     },
     {
 	    "name":"DI Guy",
-	    "merank":7,
         "melee":["CaptainFalcon"]
     },
     {
 	    "name":"Squeakie",
-	    "merank":10,
- 	    "melee":["Jigglypuff"]
+	    "merank":8,
+ 	    "melee":["Jigglypuff","IceClimbers"],
+        "description":"These players are almost at the level of the top 4. Consistently scary and always threatening to take sets off anyone, they just miss those elusive tournament wins to move up the ladder."
     },
     {
 	    "name":"Snice",
@@ -66,10 +71,11 @@ var players = [
     {
 	    "name":"Dances with Pidgeons",
 	    "melee":["Falco"],
-        "merank": 6,
+        "merank":4,
         "pmrank":5,
 	    "pm":["Falco"],
-        "wins":["melee"]
+        "wins":["melee"],
+        "description":"These players are a threat to take any tournament. Our top 4 players should be no surprise, with Dances with Pigeons pulling it out at Big Blue."
     },
     {
 	    "name":"Mr. Potato Bread",
@@ -87,6 +93,18 @@ var players = [
 	    "melee":["Marth"],
         "pmrank":8,
 	    "pm":["Sonic","Ivysaur"]
+    },
+    {
+	    "name":"AKBiggs",
+	    "melee":["Marth"],
+        "merank":9,
+        "description":"These players are the classic \"don't sleep on these guys\". Depending on how well they play, they can beat anyone, but fail to reach the level of consistency exemplified by tier A players. Expect big things from these guys in the near future."
+    },
+    {
+	    "name":"Alex",
+	    "melee":["Fox"],
+        "merank":10,
+        "description":"These players are the classic \"don't sleep on these guys\". Depending on how well they play, they can beat anyone, but fail to reach the level of consistency exemplified by tier A players. Expect big things from these guys in the near future."
     }
 ];
 
@@ -166,7 +184,7 @@ document.write('<div class="row">');
             divpm += '<i class="flair" href="#Melee' + players[r].melee[m] + '" title="' + players[r].melee[m] + '"></i>';
         }
         divpm += '</td></tr><tr><td colspan=2>';
-        if (players[r].description) { divme += '<p>' + players[r].description + '</p>'; };
+        if (players[r].description) { divpm += '<p>' + players[r].description + '</p>'; };
         divpm += '</td></tr><tr><td colspan=2>Placements: ';
         for (m in players[r].wins) {
             divpm += '<img src="../img/tourney/' + players[r].wins[m] + '.png" title="' + players[r].wins[m] + '"/>';

@@ -26,8 +26,6 @@ var players = [
 	    "melee":["Sheik"],
         "pmrank":4,
 	    "pm":["Sheik"],
-	    "description":"",
-	    "wins":["melee","melee","melee"]
     },
     {
 	    "name":"Silent Zebra",
@@ -36,46 +34,25 @@ var players = [
     },
     {
 	    "name":"Milk",
-	    "merank":4,
+	    "merank":5,
         "melee":["Peach"],
     },
     {
-	    "name":"tysonz",
-	    "merank":3,
-	    "melee":["CaptainFalcon"],
-    },
-    {
 	    "name":"Johnny",
-	    "merank":5,
-	    "melee":["CaptainFalcon"],        
+	    "merank":3,
+	    "melee":["CaptainFalcon","Sheik","Ganondorf"],
     },
     {
 	    "name":"Destiknee",
-	    "merank":8,
+	    "merank":7,
 	    "melee":["Falco", "Bowser"],
 	    "pmrank":2,
 	    "pm":["Bowser"],
     },
     {
-	    "name":"DesTony",
-        "melee":["CaptainFalcon"],
-	    "merank":9,
-    },
-    {
-	    "name":"DI Guy",
-	    "merank":7,
-        "melee":["CaptainFalcon"]
-    },
-    {
-	    "name":"Squeakie",
-	    "merank":10,
- 	    "melee":["Jigglypuff"]
-    },
-    {
 	    "name":"Snice",
         "pmrank":1,
 	    "pm":["Charizard"],
-        "wins":["pm"]
     },
     {
 	    "name":"Jewtwo",
@@ -86,26 +63,9 @@ var players = [
     {
 	    "name":"Dances with Pidgeons",
 	    "melee":["Falco"],
-        "merank": 6,
+        "merank":4,
         "pmrank":5,
-	    "pm":["Falco"]
-    },
-    {
-	    "name":"Mr. Potato Bread",
-        "pmrank":6,
-	    "pm":["Wolf"]
-    },
-    {
-	    "name":"NGNL",
-	    "melee":["Luigi"],
-        "pmrank":7,
-	    "pm":["ROB","Ike"]
-    },
-    {
-	    "name":"Tiggz",
-	    "melee":["Marth"],
-        "pmrank":8,
-	    "pm":["Sonic","Ivysaur"]
+	    "pm":["Falco"],
     }
 ];
 
@@ -140,7 +100,7 @@ var pmlist = pmsort();
 
 // Part 3: Document
 
-document.write('<div class="dplow ranking"><h4>Top Players</h4>');
+document.write('<div class="dplow ranking"><h4><a href="/rankings">Power Rankings</a></h4>');
 document.write('<h3 id="rme"><i class="game" href="#Melee"></i></h3>');
 document.write('<h3 id="rpm"><i class="game" href="#ProjectM"></i></h3>');
 
