@@ -24,23 +24,8 @@ h4 {
     text-transform: uppercase;
 }
 
-aside h3 {
-	text-align: center;
-    margin: 0;
-    padding: 0.8em;
-    font-size: 16px;
-    height: auto;
-    width: 50%;
-    margin-bottom: 2.5em;
-    line-height: 0.5em;
-    color: #{{ site.colour.overdark }};
-    background: #{{ site.colour.dark }};
-    text-transform: uppercase;
-    float: left;
-}
-
-aside h3#rpm {
-    background: #{{ site.colour.pmdark }};
+.row div:nth-child(even) h4 {
+	background: #{{ site.colour.dark }};
 }
 
 ul, ol, li {
@@ -91,11 +76,11 @@ a.anchor {
 	border: 0;
 }
 
-.navbar a:focus					{outline: 0;}
+.navbar a:focus			    {outline: 0;}
 .navbar .navbar-nav			{letter-spacing: 1px;}
-.navbar-nav li:hover			{background: #{{ site.colour.dark }};}
+.navbar-nav li:hover		{background: #{{ site.colour.dark }};}
 .navbar-nav li a:focus		{outline: 0;}
-a.on			 						{background: #{{ site.colour.dark }};}
+a.on			 			{background: #{{ site.colour.dark }};}
 
 .navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a
 {
@@ -125,6 +110,12 @@ a.on			 						{background: #{{ site.colour.dark }};}
 /*	#######################################################
    	###                    CENTER                       ###
    	####################################################### */
+
+@media(max-width:991px) {
+	#main {
+		padding-bottom: 15px;
+	}
+}
 
 .titlebar {
     margin: 0 0 3em;
@@ -159,52 +150,6 @@ article img {
 	padding-bottom: 1em;
 }
 
-div.row div.col-md-4:nth-child(even) h4 {
-	background: #{{ site.colour.dark }};
-}
-
-div.row div.rank:nth-child(even) b {
-	background: #{{ site.colour.light }};
-}
-
-.rank {
-	margin-bottom: 20px;
-}
-
-.rank b {
-    display: block;
-    float: left;
-    font-size: 20px;
-    padding: 20px 0;
-	margin: 20px 20px 20px 5px;
-    text-align: center;
-    width: 3em;
-	height: 3em;
-	color: #{{ site.colour.overdark }};
-	background: #{{ site.colour.dark }};
-}
-
-.rank span {
-    display: block;
-    float: right;
-    font-size: 14px;
-	padding: 13px 0;
-	margin: 20px;
-    width: 25%;
-	height: 3em;
-}
-
-.rank h5 {
-	display: block;
-	float: center;
-	padding: 12px 0;
-	font-size: 22px;
-	line-height: 22px;
-}
-
-.rank p {
-	padding: 1em;
-}
 
 .card img {
 	padding: 15px 0;
@@ -230,11 +175,96 @@ div.row div.rank:nth-child(even) b {
 	float: right;
 }
 
-@media(max-width:991px) {
-	#main {
-		padding-bottom: 15px;
-	}
+/*	#######################################################
+   	###                   RANKING                       ###
+   	####################################################### */
+
+.rank {
+	margin-bottom: 20px;
 }
+
+.rank b {
+    display: block;
+    float: left;
+    font-size: 20px;
+    padding: 20px 0;
+	margin: 20px 20px 20px 5px;
+    text-align: center;
+    width: 3em;
+	height: 3em;
+	color: #{{ site.colour.overdark }};
+	background: #{{ site.colour.dark }};
+}
+
+.rank:nth-child(even) b {
+	background: #{{ site.colour.light }};
+}
+
+.rank span {
+    display: block;
+    float: right;
+    font-size: 14px;
+	padding: 13px 0;
+	margin: 20px;
+    width: 25%;
+	height: 3em;
+}
+
+.rank h5 {
+	display: block;
+	float: center;
+	padding: 12px 0;
+	font-size: 22px;
+	line-height: 22px;
+}
+
+.rank p {
+	padding: 1em;
+}
+
+
+.ranking a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.ranking img {
+	float: right;
+}
+
+.ranking ul {
+    margin-bottom: 0;
+    border: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.ranking ul a li {
+    padding: 1.5em 0 1.5em 1.5em;
+    background: #{{ site.colour.overdark }};
+    line-height: normal;
+	font-size: 20px;
+}
+.ranking ul a:nth-child(even) li {
+    background: #{{ site.colour.overlight }};
+}
+
+.ranking ul a span {
+    display: block;
+    float: left;
+    font-size: 20px;
+    margin: -1.06em 0.5em 0 -1.06em;
+    padding: 1em 0;
+    text-align: center;
+    width: 3em;
+	height: 3em;
+	color: #{{ site.colour.overdark }};
+	background: #{{ site.colour.dark }};
+}
+.ranking a:nth-child(even) span     { background: #{{ site.colour.light }};}
+.ranking .pm a span                 { background: #{{ site.colour.pmlight }};}
+.ranking .pm a:nth-child(even) span { background: #{{ site.colour.pmdark }};}
+
 
 /*	#######################################################
    	###                  FLIPCARDS                      ###
@@ -305,64 +335,38 @@ aside div {
 	margin-bottom: 3em;
 }
 
-.ranking a {
-	text-decoration: none;
-	color: inherit;
-}
-
-.ranking img {
-	float: right;
-}
-
-.ranking ul {
-    margin-bottom: 0;
-    border: none;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-}
-
-.ranking ul a li {
-    padding: 1.5em 0 1.5em 1.5em;
-    background: #{{ site.colour.overdark }};
-    line-height: normal;
-	font-size: 20px;
-}
-
-.ranking ul a:nth-child(even) li {
-    background: #{{ site.colour.overlight }};
-}
-
-.ranking ul a li span {
-    display: block;
+aside h3 {
+	text-align: center;
+    margin: 0;
+    padding: 0.8em;
+    font-size: 16px;
+    height: auto;
+    width: 50%;
+    margin-bottom: 2.5em;
+    line-height: 0.5em;
+    color: #{{ site.colour.overdark }};
+    background: #{{ site.colour.dark }};
+    text-transform: uppercase;
     float: left;
-    font-size: 20px;
-    margin: -1.06em 0.5em 0 -1.06em;
-    padding: 1em 0;
-    text-align: center;
-    width: 3em;
-	height: 3em;
-	color: #{{ site.colour.overdark }};
-	background: #{{ site.colour.dark }};
 }
-.ranking ul a:nth-child(even) li span {
-	color: #{{ site.colour.overlight }};
-	background: #{{ site.colour.light }};
+
+aside h3#rme {
+    background: #{{ site.colour.light }};
+}
+
+aside h3#rpm {
+    background: #{{ site.colour.pmdark }};
 }
 
 aside .pm{
-	display: none;
+	display: none; /*Make it all after first*/
 }
 
-
-ul.pm a li span, .pm b {
-	background: #{{ site.colour.pmlight }};
-}
-
-.pm h4, ul.pm a:nth-child(even) li span, div.row div.rank:nth-child(even).pm b {
+#tourney .pm h4, .pm table b {
 	background: #{{ site.colour.pmdark }};
 }
 
-div.row div.col-md-4:nth-child(even) .pm h4 {
+#tourney .pm:nth-child(even) h4, .pm:nth-child(even) table b {
 	background: #{{ site.colour.pmlight }};
 }
 

@@ -21,23 +21,8 @@ h4 {
     text-transform: uppercase;
 }
 
-aside h3 {
-	text-align: center;
-    margin: 0;
-    padding: 0.8em;
-    font-size: 16px;
-    height: auto;
-    width: 50%;
-    margin-bottom: 2.5em;
-    line-height: 0.5em;
-    color: #FEFEFE;
-    background: #C0392B;
-    text-transform: uppercase;
-    float: left;
-}
-
-aside h3#rpm {
-    background: #673ab7;
+.row div:nth-child(even) h4 {
+	background: #C0392B;
 }
 
 ul, ol, li {
@@ -88,11 +73,11 @@ a.anchor {
 	border: 0;
 }
 
-.navbar a:focus					{outline: 0;}
+.navbar a:focus			    {outline: 0;}
 .navbar .navbar-nav			{letter-spacing: 1px;}
-.navbar-nav li:hover			{background: #C0392B;}
+.navbar-nav li:hover		{background: #C0392B;}
 .navbar-nav li a:focus		{outline: 0;}
-a.on			 						{background: #C0392B;}
+a.on			 			{background: #C0392B;}
 
 .navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a
 {
@@ -122,6 +107,12 @@ a.on			 						{background: #C0392B;}
 /*	#######################################################
    	###                    CENTER                       ###
    	####################################################### */
+
+@media(max-width:991px) {
+	#main {
+		padding-bottom: 15px;
+	}
+}
 
 .titlebar {
     margin: 0 0 3em;
@@ -156,52 +147,6 @@ article img {
 	padding-bottom: 1em;
 }
 
-div.row div.col-md-4:nth-child(even) h4 {
-	background: #C0392B;
-}
-
-div.row div.rank:nth-child(even) b {
-	background: #E74C3C;
-}
-
-.rank {
-	margin-bottom: 20px;
-}
-
-.rank b {
-    display: block;
-    float: left;
-    font-size: 20px;
-    padding: 20px 0;
-	margin: 20px 20px 20px 5px;
-    text-align: center;
-    width: 3em;
-	height: 3em;
-	color: #FEFEFE;
-	background: #C0392B;
-}
-
-.rank span {
-    display: block;
-    float: right;
-    font-size: 14px;
-	padding: 13px 0;
-	margin: 20px;
-    width: 25%;
-	height: 3em;
-}
-
-.rank h5 {
-	display: block;
-	float: center;
-	padding: 12px 0;
-	font-size: 22px;
-	line-height: 22px;
-}
-
-.rank p {
-	padding: 1em;
-}
 
 .card img {
 	padding: 15px 0;
@@ -227,11 +172,96 @@ div.row div.rank:nth-child(even) b {
 	float: right;
 }
 
-@media(max-width:991px) {
-	#main {
-		padding-bottom: 15px;
-	}
+/*	#######################################################
+   	###                   RANKING                       ###
+   	####################################################### */
+
+.rank {
+	margin-bottom: 20px;
 }
+
+.rank b {
+    display: block;
+    float: left;
+    font-size: 20px;
+    padding: 20px 0;
+	margin: 20px 20px 20px 5px;
+    text-align: center;
+    width: 3em;
+	height: 3em;
+	color: #FEFEFE;
+	background: #C0392B;
+}
+
+.rank:nth-child(even) b {
+	background: #E74C3C;
+}
+
+.rank span {
+    display: block;
+    float: right;
+    font-size: 14px;
+	padding: 13px 0;
+	margin: 20px;
+    width: 25%;
+	height: 3em;
+}
+
+.rank h5 {
+	display: block;
+	float: center;
+	padding: 12px 0;
+	font-size: 22px;
+	line-height: 22px;
+}
+
+.rank p {
+	padding: 1em;
+}
+
+
+.ranking a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.ranking img {
+	float: right;
+}
+
+.ranking ul {
+    margin-bottom: 0;
+    border: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.ranking ul a li {
+    padding: 1.5em 0 1.5em 1.5em;
+    background: #FEFEFE;
+    line-height: normal;
+	font-size: 20px;
+}
+.ranking ul a:nth-child(even) li {
+    background: #EFEFEF;
+}
+
+.ranking ul a span {
+    display: block;
+    float: left;
+    font-size: 20px;
+    margin: -1.06em 0.5em 0 -1.06em;
+    padding: 1em 0;
+    text-align: center;
+    width: 3em;
+	height: 3em;
+	color: #FEFEFE;
+	background: #C0392B;
+}
+.ranking a:nth-child(even) span     { background: #E74C3C;}
+.ranking .pm a span                 { background: #311b92;}
+.ranking .pm a:nth-child(even) span { background: #673ab7;}
+
 
 /*	#######################################################
    	###                  FLIPCARDS                      ###
@@ -302,64 +332,38 @@ aside div {
 	margin-bottom: 3em;
 }
 
-.ranking a {
-	text-decoration: none;
-	color: inherit;
-}
-
-.ranking img {
-	float: right;
-}
-
-.ranking ul {
-    margin-bottom: 0;
-    border: none;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-}
-
-.ranking ul a li {
-    padding: 1.5em 0 1.5em 1.5em;
-    background: #FEFEFE;
-    line-height: normal;
-	font-size: 20px;
-}
-
-.ranking ul a:nth-child(even) li {
-    background: #EFEFEF;
-}
-
-.ranking ul a li span {
-    display: block;
+aside h3 {
+	text-align: center;
+    margin: 0;
+    padding: 0.8em;
+    font-size: 16px;
+    height: auto;
+    width: 50%;
+    margin-bottom: 2.5em;
+    line-height: 0.5em;
+    color: #FEFEFE;
+    background: #C0392B;
+    text-transform: uppercase;
     float: left;
-    font-size: 20px;
-    margin: -1.06em 0.5em 0 -1.06em;
-    padding: 1em 0;
-    text-align: center;
-    width: 3em;
-	height: 3em;
-	color: #FEFEFE;
-	background: #C0392B;
 }
-.ranking ul a:nth-child(even) li span {
-	color: #EFEFEF;
-	background: #E74C3C;
+
+aside h3#rme {
+    background: #E74C3C;
+}
+
+aside h3#rpm {
+    background: #673ab7;
 }
 
 aside .pm{
-	display: none;
+	display: none; /*Make it all after first*/
 }
 
-
-ul.pm a li span, .pm b {
-	background: #311b92;
-}
-
-.pm h4, ul.pm a:nth-child(even) li span, div.row div.rank:nth-child(even).pm b {
+#tourney .pm h4, .pm table b {
 	background: #673ab7;
 }
 
-div.row div.col-md-4:nth-child(even) .pm h4 {
+#tourney .pm:nth-child(even) h4, .pm:nth-child(even) table b {
 	background: #311b92;
 }
 

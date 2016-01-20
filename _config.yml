@@ -18,6 +18,8 @@ relative_permalinks: false
 include: [.htaccess]
 exclude: [LICENSE,README.md]
 future: true
+paginate: 12
+paginate_path: '/tournaments/:num/'
 
 ############################## Stuff you can touch  ##############################
 

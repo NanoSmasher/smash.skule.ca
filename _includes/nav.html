@@ -9,7 +9,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="{{ page.postdata }}../">{{ site.title }}</a>
+            <a class="navbar-brand" href="/">{{ site.title }}</a>
         </div>
 
         <!-- Desktop version -->
@@ -17,8 +17,8 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
 			{% for tab in tabs %}{% capture next %}{{ page.url | remove:'/'}}{% endcapture %}{% if tab == next %}
-				<li><a class="on" href="{{ page.postdata }}../{{ tab }}/">{{ tab }}</a></li>{% else %}
-				<li><a class="" href="{{ page.postdata }}../{{ tab }}/">{{ tab }}</a></li>{% endif %}
+				<li><a class="on" href="{{ site.baseurl }}/{{ tab }}/">{{ tab }}</a></li>{% else %}
+				<li><a class="" href="{{ site.baseurl }}/{{ tab }}/">{{ tab }}</a></li>{% endif %}
 			{% endfor %}
 			</ul>
         </div>
