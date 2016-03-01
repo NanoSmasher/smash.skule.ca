@@ -3,7 +3,7 @@ var players = [
 	    "name":"N0z1ck",
 	    "merank":1,
 	    "melee":["Sheik"],
-        "pmrank":4,
+        "pmrank":1,
 	    "pm":["Sheik"],
 	    "description":"These players are a threat to take any tournament. Our top 4 players should be no surprise, with N0z1ck winning a bunch of pit smashes. He even has a blog.",
 	    "wins":["melee","melee","melee","melee"]
@@ -38,7 +38,6 @@ var players = [
 	    "name":"Destiknee",
 	    "merank":7,
 	    "melee":["Falco", "Bowser"],
-	    "pmrank":2,
 	    "pm":["Bowser"],
         "description":"These players are almost at the level of the top 4. Consistently scary and always threatening to take sets off anyone, they just miss those elusive tournament wins to move up the ladder."
     },
@@ -58,41 +57,55 @@ var players = [
     },
     {
 	    "name":"Snice",
-        "pmrank":1,
 	    "pm":["Charizard"],
+        "pmrank":5,
         "wins":["pm"]
     },
     {
 	    "name":"Jewtwo",
 	    "melee":["Zelda"],
-        "pmrank":3,
 	    "pm":["Zelda"]
     },
     {
 	    "name":"Dances with Pidgeons",
 	    "melee":["Falco"],
         "merank":4,
-        "pmrank":5,
 	    "pm":["Falco"],
         "wins":["melee"],
         "description":"These players are a threat to take any tournament. Our top 4 players should be no surprise, with Dances with Pigeons pulling it out at Big Blue."
     },
     {
 	    "name":"Mr. Potato Bread",
-        "pmrank":6,
-	    "pm":["Wolf"]
+	    "pm":["Wolf"],
+        "pmrank":3
     },
     {
 	    "name":"NGNL",
 	    "melee":["Luigi"],
-        "pmrank":7,
+        "pmrank":4,
 	    "pm":["ROB","Ike"]
     },
     {
 	    "name":"Tiggz",
 	    "melee":["Marth"],
-        "pmrank":8,
-	    "pm":["Sonic","Ivysaur"]
+	    "pm":["Sonic","Ivysaur"],
+        "pmrank":2,
+        "wins":["pm"]
+    },
+    {
+	    "name":"Koon",
+	    "pm":["ROB"],
+        "pmrank":6
+    },
+    {
+	    "name":"NegativeX",
+	    "pm":["Kirby"],
+        "pmrank":7
+    },
+    {
+	    "name":"Kwan",
+	    "pm":["Sheik"],
+        "pmrank":8
     },
     {
 	    "name":"AKBiggs",

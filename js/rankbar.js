@@ -24,48 +24,111 @@ var players = [
 	    "name":"N0z1ck",
 	    "merank":1,
 	    "melee":["Sheik"],
-        "pmrank":4,
+        "pmrank":1,
 	    "pm":["Sheik"],
+	    "wins":["melee","melee","melee","melee"]
     },
     {
 	    "name":"Silent Zebra",
 	    "merank":2,
         "melee":["Ganondorf"],
+        "wins":["melee"]
     },
     {
 	    "name":"Milk",
 	    "merank":5,
         "melee":["Peach"],
+        "wins":["melee"]
+    },
+    {
+	    "name":"tysonz",
+	    "merank":6,
+	    "melee":["CaptainFalcon"]
     },
     {
 	    "name":"Johnny",
 	    "merank":3,
-	    "melee":["CaptainFalcon","Sheik","Ganondorf"],
+	    "melee":["CaptainFalcon","Sheik","Ganondorf"]
     },
     {
 	    "name":"Destiknee",
 	    "merank":7,
 	    "melee":["Falco", "Bowser"],
-	    "pmrank":2,
-	    "pm":["Bowser"],
+	    "pm":["Bowser"]
+    },
+    {
+	    "name":"DesTony",
+        "melee":["CaptainFalcon"],
+    },
+    {
+	    "name":"DI Guy",
+        "melee":["CaptainFalcon"]
+    },
+    {
+	    "name":"Squeakie",
+	    "merank":8,
+ 	    "melee":["Jigglypuff","IceClimbers"]
     },
     {
 	    "name":"Snice",
-        "pmrank":1,
 	    "pm":["Charizard"],
+        "pmrank":5,
+        "wins":["pm"]
     },
     {
 	    "name":"Jewtwo",
 	    "melee":["Zelda"],
-        "pmrank":3,
 	    "pm":["Zelda"]
     },
     {
 	    "name":"Dances with Pidgeons",
 	    "melee":["Falco"],
         "merank":4,
-        "pmrank":5,
 	    "pm":["Falco"],
+        "wins":["melee"]
+    },
+    {
+	    "name":"Mr. Potato Bread",
+	    "pm":["Wolf"],
+        "pmrank":3
+    },
+    {
+	    "name":"NGNL",
+	    "melee":["Luigi"],
+        "pmrank":4,
+	    "pm":["ROB","Ike"]
+    },
+    {
+	    "name":"Tiggz",
+	    "melee":["Marth"],
+	    "pm":["Sonic","Ivysaur"],
+        "pmrank":2,
+        "wins":["pm"]
+    },
+    {
+	    "name":"Koon",
+	    "pm":["ROB"],
+        "pmrank":6
+    },
+    {
+	    "name":"NegativeX",
+	    "pm":["Kirby"],
+        "pmrank":7
+    },
+    {
+	    "name":"Kwan",
+	    "pm":["Sheik"],
+        "pmrank":8
+    },
+    {
+	    "name":"AKBiggs",
+	    "melee":["Marth"],
+        "merank":9
+    },
+    {
+	    "name":"Alex",
+	    "melee":["Fox"],
+        "merank":10
     }
 ];
 
