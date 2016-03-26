@@ -24,41 +24,41 @@ var players = [
 	    "name":"N0z1ck",
 	    "merank":1,
 	    "melee":["Sheik"],
-        "pmrank":1,
 	    "pm":["Sheik"],
-	    "wins":["melee","melee","melee","melee"]
+	    "wins":["melee","melee","melee","melee"],
+		"pmrank":1
     },
     {
 	    "name":"Silent Zebra",
 	    "merank":2,
         "melee":["Ganondorf"],
-        "wins":["melee"]
+        "wins":["melee"],
     },
     {
 	    "name":"Milk",
 	    "merank":5,
         "melee":["Peach"],
-        "wins":["melee"]
+        "wins":["melee"],
     },
     {
 	    "name":"tysonz",
 	    "merank":6,
-	    "melee":["CaptainFalcon"]
+	    "melee":["CaptainFalcon"],
     },
     {
 	    "name":"Johnny",
 	    "merank":3,
-	    "melee":["CaptainFalcon","Sheik","Ganondorf"]
+	    "melee":["CaptainFalcon","Sheik","Ganondorf"],
     },
     {
 	    "name":"Destiknee",
 	    "merank":7,
 	    "melee":["Falco", "Bowser"],
-	    "pm":["Bowser"]
+	    "pm":["Bowser"],
     },
     {
 	    "name":"DesTony",
-        "melee":["CaptainFalcon"],
+        "melee":["CaptainFalcon"]
     },
     {
 	    "name":"DI Guy",
@@ -67,48 +67,49 @@ var players = [
     {
 	    "name":"Squeakie",
 	    "merank":8,
- 	    "melee":["Jigglypuff","IceClimbers"]
+ 	    "melee":["Jigglypuff","IceClimbers"],
     },
     {
 	    "name":"Snice",
-	    "pm":["Charizard"],
-        "pmrank":5,
-        "wins":["pm"]
+	    "pm":["Charizard"],        
+        "wins":["pm"],
+		"pmrank":2
     },
     {
 	    "name":"Jewtwo",
 	    "melee":["Zelda"],
-	    "pm":["Zelda"]
+	    "pm":["Zelda"],
+		"pmrank":3
     },
     {
 	    "name":"Dances with Pidgeons",
 	    "melee":["Falco"],
         "merank":4,
 	    "pm":["Falco"],
-        "wins":["melee"]
+        "wins":["melee"],
     },
     {
 	    "name":"Mr. Potato Bread",
 	    "pm":["Wolf"],
-        "pmrank":3
+        "pmrank":4
     },
     {
 	    "name":"NGNL",
 	    "melee":["Luigi"],
-        "pmrank":4,
+        "pmrank":6,
 	    "pm":["ROB","Ike"]
     },
     {
 	    "name":"Tiggz",
-	    "melee":["Marth"],
-	    "pm":["Sonic","Ivysaur"],
-        "pmrank":2,
+	    "melee":["Falco"],
+	    "pm":["Ivysaur","Sonic"],
+        "pmrank":5,
         "wins":["pm"]
     },
     {
 	    "name":"Koon",
-	    "pm":["ROB"],
-        "pmrank":6
+	    "pm":["ROB"]
+     
     },
     {
 	    "name":"NegativeX",
@@ -123,12 +124,12 @@ var players = [
     {
 	    "name":"AKBiggs",
 	    "melee":["Marth"],
-        "merank":9
+        "merank":9,
     },
     {
 	    "name":"Alex",
 	    "melee":["Fox"],
-        "merank":10
+        "merank":10,
     }
 ];
 

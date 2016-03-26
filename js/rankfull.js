@@ -3,47 +3,41 @@ var players = [
 	    "name":"N0z1ck",
 	    "merank":1,
 	    "melee":["Sheik"],
-        "pmrank":1,
 	    "pm":["Sheik"],
-	    "description":"These players are a threat to take any tournament. Our top 4 players should be no surprise, with N0z1ck winning a bunch of pit smashes. He even has a blog.",
-	    "wins":["melee","melee","melee","melee"]
+	    "wins":["melee","melee","melee","melee"],
+		"pmrank":1
     },
     {
 	    "name":"Silent Zebra",
 	    "merank":2,
         "melee":["Ganondorf"],
         "wins":["melee"],
-        "description":"These players are a threat to take any tournament. Our top 4 players should be no surprise, with Silent Zebra picking up the other pit smashes."
     },
     {
 	    "name":"Milk",
 	    "merank":5,
         "melee":["Peach"],
         "wins":["melee"],
-        "description":"These players are almost at the level of the top 4. Consistently scary and always threatening to take sets off anyone, they just miss those elusive tournament wins to move up the ladder."
     },
     {
 	    "name":"tysonz",
 	    "merank":6,
 	    "melee":["CaptainFalcon"],
-        "description":"These players are almost at the level of the top 4. Consistently scary and always threatening to take sets off anyone, they just miss those elusive tournament wins to move up the ladder."
     },
     {
 	    "name":"Johnny",
 	    "merank":3,
 	    "melee":["CaptainFalcon","Sheik","Ganondorf"],
-        "description":"These players are a threat to take any tournament. Our top 4 players should be no surprise, with Johnny dominating in the Melee League."
     },
     {
 	    "name":"Destiknee",
 	    "merank":7,
 	    "melee":["Falco", "Bowser"],
 	    "pm":["Bowser"],
-        "description":"These players are almost at the level of the top 4. Consistently scary and always threatening to take sets off anyone, they just miss those elusive tournament wins to move up the ladder."
     },
     {
 	    "name":"DesTony",
-        "melee":["CaptainFalcon"],
+        "melee":["CaptainFalcon"]
     },
     {
 	    "name":"DI Guy",
@@ -53,18 +47,18 @@ var players = [
 	    "name":"Squeakie",
 	    "merank":8,
  	    "melee":["Jigglypuff","IceClimbers"],
-        "description":"These players are almost at the level of the top 4. Consistently scary and always threatening to take sets off anyone, they just miss those elusive tournament wins to move up the ladder."
     },
     {
 	    "name":"Snice",
-	    "pm":["Charizard"],
-        "pmrank":5,
-        "wins":["pm"]
+	    "pm":["Charizard"],        
+        "wins":["pm"],
+		"pmrank":2
     },
     {
 	    "name":"Jewtwo",
 	    "melee":["Zelda"],
-	    "pm":["Zelda"]
+	    "pm":["Zelda"],
+		"pmrank":3
     },
     {
 	    "name":"Dances with Pidgeons",
@@ -72,30 +66,29 @@ var players = [
         "merank":4,
 	    "pm":["Falco"],
         "wins":["melee"],
-        "description":"These players are a threat to take any tournament. Our top 4 players should be no surprise, with Dances with Pigeons pulling it out at Big Blue."
     },
     {
 	    "name":"Mr. Potato Bread",
 	    "pm":["Wolf"],
-        "pmrank":3
+        "pmrank":4
     },
     {
 	    "name":"NGNL",
 	    "melee":["Luigi"],
-        "pmrank":4,
+        "pmrank":6,
 	    "pm":["ROB","Ike"]
     },
     {
 	    "name":"Tiggz",
-	    "melee":["Marth"],
-	    "pm":["Sonic","Ivysaur"],
-        "pmrank":2,
+	    "melee":["Falco"],
+	    "pm":["Ivysaur","Sonic"],
+        "pmrank":5,
         "wins":["pm"]
     },
     {
 	    "name":"Koon",
-	    "pm":["ROB"],
-        "pmrank":6
+	    "pm":["ROB"]
+     
     },
     {
 	    "name":"NegativeX",
@@ -111,13 +104,11 @@ var players = [
 	    "name":"AKBiggs",
 	    "melee":["Marth"],
         "merank":9,
-        "description":"These players are the classic \"don't sleep on these guys\". Depending on how well they play, they can beat anyone, but fail to reach the level of consistency exemplified by tier A players. Expect big things from these guys in the near future."
     },
     {
 	    "name":"Alex",
 	    "melee":["Fox"],
         "merank":10,
-        "description":"These players are the classic \"don't sleep on these guys\". Depending on how well they play, they can beat anyone, but fail to reach the level of consistency exemplified by tier A players. Expect big things from these guys in the near future."
     }
 ];
 
