@@ -4,7 +4,7 @@ var players = [
 	    "merank":1,
 	    "melee":["Sheik"],
 	    "pm":["Sheik"],
-	    "wins":["melee","melee","melee","melee"],
+	    "wins":["melee","melee","melee","melee","pm","pm","pm","pm"],
 		"pmrank":1
     },
     {
@@ -33,7 +33,8 @@ var players = [
 	    "name":"Destiknee",
 	    "merank":7,
 	    "melee":["Falco", "Bowser"],
-	    "pm":["Bowser"],
+	    "pm":["Bowser","Falco"],
+		"pmrank":3
     },
     {
 	    "name":"DesTony",
@@ -52,13 +53,13 @@ var players = [
 	    "name":"Snice",
 	    "pm":["Charizard"],        
         "wins":["pm"],
-		"pmrank":2
+		"pmrank":4
     },
     {
 	    "name":"Jewtwo",
 	    "melee":["Zelda"],
 	    "pm":["Zelda"],
-		"pmrank":3
+		"pmrank":7
     },
     {
 	    "name":"Dances with Pidgeons",
@@ -70,7 +71,7 @@ var players = [
     {
 	    "name":"Mr. Potato Bread",
 	    "pm":["Wolf"],
-        "pmrank":4
+        "pmrank":5
     },
     {
 	    "name":"NGNL",
@@ -82,7 +83,7 @@ var players = [
 	    "name":"Tiggz",
 	    "melee":["Falco"],
 	    "pm":["Ivysaur","Sonic"],
-        "pmrank":5,
+        "pmrank":2,
         "wins":["pm"]
     },
     {
@@ -93,7 +94,7 @@ var players = [
     {
 	    "name":"NegativeX",
 	    "pm":["Kirby"],
-        "pmrank":7
+        
     },
     {
 	    "name":"Kwan",
